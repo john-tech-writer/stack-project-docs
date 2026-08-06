@@ -1,0 +1,12 @@
+# MkDocs build output — regenerated from docs/ + mkdocs.yml, published via gh-deploy/Actions
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
