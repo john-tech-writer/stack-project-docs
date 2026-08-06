@@ -42,10 +42,7 @@ Manual, same as the reel site:
 mkdocs gh-deploy
 ```
 
-Or push to `main` and let `.github/workflows/deploy.yml` build and deploy automatically —
-one-time setup: Settings → Pages → Source → GitHub Actions (or leave on the `gh-pages` branch
-if you'd rather keep triggering `mkdocs gh-deploy` by hand; either works with this workflow file
-present, it just won't run unless Actions is selected as the source).
+Or push to `main` and let `.github/workflows/deploy.yml` build and deploy automatically. It runs on every push regardless of your Pages settings — the one-time setup step is telling Pages where to find the result: Settings → Pages → Source → **Deploy from a branch** → branch `gh-pages` → folder `/ (root)` → Save. (Don't select "GitHub Actions" as the source — that's a different deployment method this workflow doesn't use.)
 
 ## Folder layout
 
