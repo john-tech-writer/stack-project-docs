@@ -1,6 +1,8 @@
 # Volume planning
 
-ch volume will include one reel of each of the four basic types (spinner, etc.) plus one oddball/novel reel. Each reel will get:
+*updated 8.7.26*
+
+Each volume will include one reel of each of the four basic types (spinner, etc.) plus one oddball / novel reel. Each reel will get:
 
   - Overview and service guide for repo
 
@@ -12,55 +14,32 @@ In addition to the volume on the repo the stack will include videos hosted on Yo
 
   - Welcome to the bench and notification posts for substack.
 
-Currently (may 2026) 5 volumes are planned.
+Currently (May 2026) 5 volumes are planned.
 
 ## Volume 1
 
 Penn Spinfisher 720 open face spinning reel
 
-  - 5.20.26: Completed overview and service guide for repo. Completed overview, disassembly, and reassembly videos for YT.
-
-  - Needed: Additional mini service guides for drag stack and bail. Additional corresponding vids for YT. Retro "welcome to the bench" and "notification" posts for substack.
-
 Pflueger Nobby model 1963 baitcasting reel
-
-  - 5.20.26: Completed overview vid for YT.
-
-  - Needed: Overview and service guide for repo. Service vid for YT. Welcome to the bench and notification posts for SS.
-
-  - 8.4.26: All docs and media completed for the Nobby. Substack notification scheduled to publish 8.6.26.
-
-This (aug 2026) is a milestone for the project, two reels have all docs and media published and the refactor of the first phase of the project is mostly complete.
 
 Zebco 33 spincasting reel
 
-  - 5.20.26: Drafted "Reel stories"/hero post for SS.
-
-  - Needed: Complete reel stories post.
-
-  - 8.4.26: Reel stories post has been published.
-
 Shakespeare Silent Tru aRT automatic fly reel
 
-  - 5.20.26: Acquired, also box and inserts.
-
 Pfueger Pelican 1021 manual pick-up open face spinning reel
-
-  - 5.20.26: Acquired, also manual from ORCA.
-
-These reels have already been acquired so are ready to be documented. All except the Pelican have already been serviced.
-
-Penn Spinfisher series and other spinners of note - ideas on framing spinning reels for the next few volumes: see workspace `/penn/penn-spinfisher-series-notes.md`
 
 ## Volume 2
 
 Pflueger Pelican 1020/1020A open face spinning reel
 
-  - 5.20.26: Acquired, also manual from ORCA.
-
 OR
 
 Mitchell 300/302, more iconic according to P.
+
+OR
+
+Another Penn Spinfisher - notes on this series and framing spinning reels for the next few volumes: see workspace `/penn/penn-spinfisher-series-notes.md`
+
 
 Garcia 3000 (or 2000, etc.) baitcasting reel
 

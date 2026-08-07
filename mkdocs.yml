@@ -3,6 +3,7 @@ site_url: https://john-tech-writer.github.io/stack-project-docs
 
 nav:
   - Home: index.md
+  - Changelog: changelog.md
   - Orientation:
       - README: orientation.md
       - Directory Layout: directory-layout.md
