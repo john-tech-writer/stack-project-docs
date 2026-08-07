@@ -6,7 +6,7 @@ This docs project has a complete structural skeleton and real working content, b
 
 **How to read this:** `[ ]` = open, not started yet. `[x]` = resolved — check it off and add a dated note in the [Progress log](#progress-log) at the bottom saying what changed. Each checklist item has a short one-line summary here; the full reasoning and suggested repair for every item lives in the matching section further down the page, in the same order.
 
-Found something yourself that isn't on this list? Add it to [Additional items](#additional-items-found-during-implementation) below with the next `N-` number and today's date — don't try to force it into the lettered categories above, those map 1:1 to the original 2026-08-06 review and are left alone so that record stays intact.
+Issues / items noted after the initial list was created on 8.6.26 will be added to [Additional items](#additional-items-found-during-implementation) below with the next `N-#` number and date. New issues will not be mapped / added to the original lettered categories because those map 1:1 to the original 2026-08-06 review and are left alone so that change record stays intact.
 
 ## Priority items (fix first)
 

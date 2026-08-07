@@ -2,6 +2,12 @@
 
 *updated 8.7.26*
 
+This is an example of how volume planning can be implemented for a long-term technical documentation project. Volumes can be idiosyncratic - the logic of how much content to include in each volume, the content criteria for each volume, and the overall structure of a multi-volume library should be derived naturally from the material.
+
+In this example, five reels constitutes a substantial but not overwhelming amount of content. The fact that there are several basic reel types suggested that one of each type plus a hybrid or unusual reel would be a logical content selection criteria, along with how iconic certain makers and reel models are in the collecting community literature. Finally, there were enough immediately interesting possibilities to fill five volumes, and beyond planning those five, more volumes can simply use incremental numbering and follow the same content selection criteria. 
+
+Content by volume should be represented in the site navigation as one of multiple ways that users can browse the content. Each volume should include a short introductory commentary that explains the content criteria for that volume and the library overall.
+
 Each volume will include one reel of each of the four basic types (spinner, etc.) plus one oddball / novel reel. Each reel will get:
 
   - Overview and service guide for repo
@@ -40,7 +46,6 @@ OR
 
 Another Penn Spinfisher - notes on this series and framing spinning reels for the next few volumes: see workspace `/penn/penn-spinfisher-series-notes.md`
 
-
 Garcia 3000 (or 2000, etc.) baitcasting reel
 
 This will probably be the next acquisition, and is a bit of an anomaly as it is not an American maker, but the Abu Garcia baitcasting reels are so iconic for this era they really must be included. It will be important to focus on the lighter Garcias first, and perhaps in future volumes include the larger and heavier reels--in parallel with the Penn Spincaster series of spinning reels, going from the 720 toward the 706.
@@ -49,15 +54,13 @@ South Bend 88 spincast reel
 
 Manual/single action fly reel TBD - one candidate could be the Pflueger Medalist, I think.
 
-Magic Fishing Reel, combo type
-
-  - 5.20.26: Acquired, also patent docs including schematics, mechanical description, and user instructions.
+Magic Fishing Reel, hybrid / combo type
 
 ## Volume 3
 
 Penn Spinfisher, probably the Penn 712/713.
 
-Baitcasting reel TBD, maybe the next-heavier Abu Garcia--4000, etc.
+Baitcasting reel TBD, maybe the next-heavier Abu Garcia - 4000, etc.
 
 Spincast reel TBD (South Bend may have produced something like a "Futura" which is fairly easy to acquire and interesting)
 
