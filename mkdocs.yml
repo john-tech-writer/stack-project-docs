@@ -19,10 +19,6 @@ nav:
       - Substack Standards and Series: substack-standards-series.md
   - Templates:
       - Skeletons and Templates Workflow: skeletons-templates-workflow.md
-      - Repo Skeletons:
-          - Overview Skeleton: repo-skeletons/overview-skeleton.md
-          - Service Guide Skeleton: repo-skeletons/service-guide-skeleton.md
-
 theme:
   name: readthedocs
 
