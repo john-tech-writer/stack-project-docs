@@ -32,7 +32,7 @@ This skeleton / model is suitable for a wide range of projects, from hardware-or
 
 The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
 
-This is a growing and evolving repository and will be updated regularly based on successive refactoring passes on real projects. The knowledge gained from real-work projects will be used to contiuously update this repository and add to it, making it a more useful toolkit as it grows and matures. All this project history is recorded in the [Changelog](changelog.md).
+This is a growing and evolving repository and will be updated regularly based on successive refactoring passes on real projects. The knowledge gained from real-work projects will be used to contiuously update this repository and add to it, making it a more useful toolkit as it grows and matures. All this project history is recorded in the [Changelog](docs/changelog.md).
 
 ## Local preview
 
