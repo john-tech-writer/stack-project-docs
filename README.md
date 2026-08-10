@@ -4,28 +4,35 @@
 
 created 8.6.26
 
-This site's main purpose is to provide a general-purpose skeleton for creating a GitHub
-repository for technical documentation which is also linked to a media stack - YouTube video
-and Substack narrative content. This models a robust workflow for authoring how-to procedural
-docs, conceptual / overview docs, and reference docs, and organizing the content so it is easy
-to navigate.
+This repository / site / project is mainly intended to provide a general-purpose skeleton for creating a media stack for technical documentation. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content. 
 
-The media stack elements provide a ready-made audience platform for the more technical
-documents that live in the repository.
+This stack models a robust workflow for known, well-researched technical authoring best practices:
+  - Short overviews to provide context and explain concepts.
+  - Illustrated procedures that clearly demonstrate tool use.
+  - Short videos to give a general feel for a procedure and show specific moves difficult to capture in still photos or text.
+  - Narrative content for a wider sense of context.
+  - A notification hub for updates.
 
-This skeleton / model is suitable for a wide range of projects, from hardware-oriented
-maintenance and repair work to software-based workflows. The project documents here were
-developed over the course of about six months in parallel with a real demo project, which can
-be viewed at [vintage-reel-service-guides.com](https://vintage-reel-service-guides.com).
+This model is suitable for procedural docs, conceptual / overview docs, and reference docs. If you are familiar with the DITA model, all this will seem very familiar. Also important, this site both explains and models how to organize the content in meaningful ways beyond the full-text search.
 
-The documents include not only general guidelines and structure, but also prompts to help
-kick-start the process of authoring content. They also include more specific, concrete
-instructions for tool use, for example, how to use Shotcut to create and edit videos.
+In this stack design, the media stack elements provide a ready-made audience platform for video and narrative content which points back to the core technical documents that live in the repository:
 
-This is a growing and evolving repository and will be updated regularly based on successive
-refactoring passes on real projects. The knowledge gained from real-work projects will be used
-to continuously update this repository and add to it, making it a more useful toolkit as it
-grows and matures.
+```mermaid
+
+flowchart TD
+  A[GitHub repository - technical content hosting]
+  A --> Y[YouTube channel - video content hosting]
+  A --> S[Substack - narrative and notification hub]
+
+```
+
+The media elements not only widen the audience reach of the repository, they also provide appropriate containers for content that doesn't fit the strictly technical nature of the repository.
+
+This skeleton / model is suitable for a wide range of projects, from hardware-oriented maintenance and repair work to software-based workflows. The project documents here were developed over the course of about six months in parallel with a real demo project, which can be viewed at vintage-reel-service-guides.com.
+
+The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
+
+This is a growing and evolving repository and will be updated regularly based on successive refactoring passes on real projects. The knowledge gained from real-work projects will be used to contiuously update this repository and add to it, making it a more useful toolkit as it grows and matures. All this project history is recorded in the [Changelog](changelog.md).
 
 ## Local preview
 
