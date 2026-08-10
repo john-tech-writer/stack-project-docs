@@ -22,7 +22,7 @@ Every pass makes the project flow better: clearer naming, better links, more hon
 
 Leaning on it solves decision fatigue: if the stack feels overwhelming - slugs / naming, badge / design, Substack / narrative, YouTube / video, reels / content sourcing - the project workflow page can be opened, reviewed, worked on, and will move the project one notch higher. **That counts**.
 
-The following sections describe the standards and workflow for the model project, [Vintage Reel Service Guides](vintage-reel-service-guides.com). They can be used as skeletons for any other project - the specific information would be changed, but the basic workflow and structure can be applied to any similar documentation project.
+The following sections describe the standards and workflow for the model project, [Vintage Reel Service Guides](https://vintage-reel-service-guides.com). They can be used as skeletons for any other project - the specific information would be changed, but the basic workflow and structure can be applied to any similar documentation project.
 
 ## Naming and slugs
 
