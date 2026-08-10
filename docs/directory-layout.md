@@ -2,7 +2,7 @@
 
 ## 1. Project folder
 
-Local clone of `vintage-reel-service-guides` repository on Github
+Local clone of `vintage-reel-service-guides` repository on GitHub
 
 - `vintage-reel-service-guides/`
   - `.git/`
@@ -21,23 +21,20 @@ Local clone of `vintage-reel-service-guides` repository on Github
     - `references.md`
     - `baitcasting-reels.md`
     - etc.  ← generic (*non-reel-specific*) docs used in repo
+    - `stylesheets/extra.css`
   - `site/`  ← built site files
 
 ## 1a. Project docs (own repo, own site)
 
-As of 8.6.26, `project-docs/` moved out of the `vintage-reel-service-guides` repo and into its
-own sibling repo/site, `stack-project-docs`, so this material is actually browsable instead of
-just sitting pushed-but-unpublished. Same account, same MkDocs + GitHub Pages wiring, published
-at `john-tech-writer.github.io/stack-project-docs` (no custom domain).
+8.6.26: `project-docs/` moved out of the `vintage-reel-service-guides` repo and into its own sibling repo / site, `stack-project-docs`, so this material is browsable instead of just pushed-but-unpublished. Same account, same MkDocs + GitHub Pages wiring, published at `john-tech-writer.github.io/stack-project-docs` (no custom domain). The original project-docs folder is archived in the workspace project dev-background folder for reference.
 
-- `stack-project-docs/`  ← files for planning, organizing, and maintaining the repo and workflow
+- `stack-project-docs/`  ← files for planning, organizing, and maintaining the repo and workflow - also basis for generic project
   - `.git/`
   - `.github/workflows/deploy.yml`  ← auto-publish on push to `main`
   - `mkdocs.yml`
   - `docs/`
-    - `index.md`  ← this is `project-workflow.md`, serves as the site home page
-    - `orientation.md`  ← this is `README.md`, renamed because MkDocs treats README.md as an
-      alias for index.md and silently drops it when both exist in the same folder
+    - `index.md`  ← this was originally `project-workflow.md`, serves as the new site's home / index page
+    - `orientation.md`  ← this is `README.md`, renamed because MkDocs treats README.md as an alias for index.md and silently drops it when both exist in the same folder
     - `directory-layout.md`  ← this file
     - `naming-slugs.md`
     - `parking-lot.md`
@@ -48,9 +45,6 @@ at `john-tech-writer.github.io/stack-project-docs` (no custom domain).
     - `backup-workflow.md`
     - `substack-standards-series.md`
     - `skeletons-templates-workflow.md`
-    - `repo-skeletons/`
-      - `overview-skeleton.md`
-      - `service-guide-skeleton.md`
     - `img/`
       - `screen-shots/`
       - `screencasts/`
