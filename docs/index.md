@@ -4,7 +4,7 @@ john-tech-writer.github.io/stack-project-docs
 
 *created 8.6.26*
 
-This repository / site / project is mainly intended to provide a general-purpose skeleton for creating a media stack for technical documentation. In this model, a Github repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content. 
+This repository / site / project is mainly intended to provide a general-purpose skeleton for creating a media stack for technical documentation. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content. 
 
 This stack models a robust workflow for known, well-researched technical authoring best practices:
   - Short overviews to provide context and explain concepts.
@@ -20,7 +20,7 @@ In this stack design, the media stack elements provide a ready-made audience pla
 ```mermaid
 
 flowchart TD
-  A[Github repository - technical content hosting]
+  A[GitHub repository - technical content hosting]
   A --> Y[YouTube channel - video content hosting]
   A --> S[Substack - narrative and notification hub]
 
@@ -32,11 +32,11 @@ This skeleton / model is suitable for a wide range of projects, from hardware-or
 
 The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
 
-This is a growing and evolving repository and will be updated regularly based on successive refactoring passes on real projects. The knowledge gained from real-work projects will be used to contiunously update this repository and add to it, making it a more useful toolkit as it grows and matures. All this project history is recorded in the [Changelog](changelog.md).
+This is a growing and evolving repository and will be updated regularly based on successive refactoring passes on real projects. The knowledge gained from real-work projects will be used to contiuously update this repository and add to it, making it a more useful toolkit as it grows and matures. All this project history is recorded in the [Changelog](changelog.md).
 
-# Project philosophy
+## Project philosophy
 
-**Let the real work teach what the theory should look like**. As project content is developed, the workflow can also be abstracted and made concrete. Iterations on lived and living, dynamic examples result in constant improvement.
+**Let the real work teach what the theory should look like**. As project content is developed, the workflow can be abstracted and made concrete. This knowledge can be documented in one central file, the main workflow document - this file - to capture how ideas are developed and implemented over time. Iterations on lived - and living - dynamic examples result in constant improvement.
 
 Workflow documentation informs ongoing content development and the content development in turn informs the evolution of the workflow. This includes processes, naming standards, software tools, and all the rest of the machinery that moves the project forward and makes content stylistically coherent and repeatable.
 
@@ -44,7 +44,7 @@ This file is the **one place** to always return to push the project a little fur
 
 Every pass makes the project flow better: clearer naming, better links, more honest reflection of how project work is actually accomplished, not some abstract ideal.
 
-Leaning on it solves decision fatigue: if the stack feels overwhelming - slugs / naming, badge / design, Substack / narrative, YouTube / video, reels / content sourcing - `project-workflow.md` can be opened, reviewed, worked on, and will move the project one notch higher. **That counts**.
+Leaning on it solves decision fatigue: if the stack feels overwhelming - slugs / naming, badge / design, Substack / narrative, YouTube / video, reels / content sourcing - the project workflow page can be opened, reviewed, worked on, and will move the project one notch higher. **That counts**.
 
 # Project standards and workflow
 
