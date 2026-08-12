@@ -46,7 +46,7 @@ The workflow for this project is organized logically into the type of content be
 
   - Service guides for the repository and their companion videos.
 
-  - Narrative and notification content for Substack.
+  - Additional narrative content for Substack.
 
 ## Overviews
 

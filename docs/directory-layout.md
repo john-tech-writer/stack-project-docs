@@ -53,7 +53,7 @@ Local clone of `vintage-reel-service-guides` repository on GitHub
 
 ## 2. Workspace
 
-Active working documents that do **not** go in the repo
+Active working documents that do **not** go in the repo.
 
 - `vintage-reel-service-guides-workspace/`
   - `general referece docs/`
