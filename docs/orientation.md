@@ -4,7 +4,6 @@ This folder contains internal project documents for planning, organizing, and ma
 
 These are working documents for managing the project itself, not end-user service guide content. They reside in the project folder in `project-docs/` and get pushed to the repo but are not included in site navigation.
 
-
 ## Start here
 
 These internal documents are most easily accessed on the site via [project workflow](index.md), which acts as the index page for project documentation on the repo. project-workflow is the basic roadmap for navigating, creating, and managing all project content.

@@ -1,44 +1,6 @@
 # Project workflow
 
-This workflow file provides the basic roadmap for navigating, creating, and managing all project content. It also explains the "why" that guides the logic of the project.
-
-The basics of project development and management, beyond the overall workflow, are understanding file naming and organization, what documents guide the project, and where to record ideas for the future. The following other key files cover all these:
-
-  - [README](orientation.md): Orientation to the internal project documentation.
-
-  - [Parking lot](parking-lot.md): List of project upgrades and ideas for future iterations.
-
-  - [Directory layout](directory-layout.md): Diagram of all project directories and notes on their contents.
-
-## Project philosophy
-
-**Let the real work teach what the theory should look like**. As project content is developed, the workflow can be abstracted and made concrete. This knowledge can be documented in one central file, the main workflow document - this file - to capture how ideas are developed and implemented over time. Iterations on lived - and living - dynamic examples result in constant improvement.
-
-Workflow documentation informs ongoing content development and the content development in turn informs the evolution of the workflow. This includes processes, naming standards, software tools, and all the rest of the machinery that moves the project forward and makes content stylistically coherent and repeatable.
-
-This file is the **one place** to always return to push the project a little further: cleaning dirs, tightening steps, wiring pieces together.
-
-Every pass makes the project flow better: clearer naming, better links, more honest reflection of how project work is actually accomplished, not some abstract ideal.
-
-Leaning on it solves decision fatigue: if the stack feels overwhelming - slugs / naming, badge / design, Substack / narrative, YouTube / video, reels / content sourcing - the project workflow page can be opened, reviewed, worked on, and will move the project one notch higher. **That counts**.
-
-The following sections describe the standards and workflow for the model project, [Vintage Reel Service Guides](https://vintage-reel-service-guides.com). They can be used as skeletons for any other project - the specific information would be changed, but the basic workflow and structure can be applied to any similar documentation project.
-
-## Naming and slugs
-
-Disciplined naming standards codify important principles so authors do not have to reinvent the wheel over and over.
-
-All reels and other project content sources are assigned a slug for easy and consistent identification across all directories and usages.
-
-See [Naming and slugs](naming-slugs.md).
-
-## Skeletons and templates
-
-As with naming standards, skeletons / templates codify important principles for authoring stylistically consitent content.
-
-All content is based on skeletons / templates which enforce evolving content standards and help jog memory and ideas.
-
-See [Skeletons and templates workflow](skeletons-templates-workflow.md).
+This file provides the basic roadmap for navigating, creating, and managing all project content. [README](orientation.md) provides an orientation to the overall internal project documentation. The following sections describe the project standards and workflow.
 
 The workflow for this project is organized logically into the type of content being authored. This is driven partly by the actual physical processes involved in creating the content - e.g., the processes of photographing the reels, taking them apart, and creating videos - as well as the form that content takes (text, photos, videos, audio) and the delivery platform (GitHub, YouTube, Substack). So, the workflow logically divides into the following phases for any one reel across the entire project workflow:
 
@@ -48,7 +10,7 @@ The workflow for this project is organized logically into the type of content be
 
   - Additional narrative content for Substack.
 
-## Overviews
+## Overview workflow
 
 1. Select reel based on [Volume planning](volume-planning.md), acquire.
 
@@ -82,7 +44,7 @@ The workflow for this project is organized logically into the type of content be
 
 7. Create overview video. Follow the procedure in [Audio - video workflow](audio-video-workflow.md).
 
-## Service guides
+## Service guide workflow
 
 1. Take a second round of images while disassembling and reassembling reel. Save to the Pictures media folder `/maker and reel docs/[maker]/sg/[slug]-[desc].jpg`
 
@@ -100,10 +62,24 @@ The workflow for this project is organized logically into the type of content be
 
     See [Substack standards and series](substack-standards-series.md) and See [Skeletons and templates workflow](skeletons-templates-workflow.md).
 
-## Substack
+## Substack workflow
 
 The other couple of Substack series can be published on a looser schedule. See [Substack standards and series](substack-standards-series.md).
 
 When service is completed on a reel, write one or more "Reel stories," about test casting, taking it into the field, how it performs, how it is integrated with other tackle to make a balanced outfit, what fish are sought and caught.
 
 "Production notes" can be published anytime as occasional features. Progress milestones during a stack production run make good subjects, like how the lighting is done / changed / etc.
+
+# Standards
+
+**Naming and slugs**: Disciplined naming standards codify important principles so authors do not have to reinvent the wheel over and over.
+
+All reels and other project content sources are assigned a slug for easy and consistent identification across all directories and usages.
+
+See [Naming and slugs](naming-slugs.md).
+
+**Skeletons and templates**: As with naming standards, skeletons / templates codify important principles for authoring stylistically consitent content.
+
+All content is based on skeletons / templates which enforce evolving content standards and help jog memory and ideas.
+
+See [Skeletons and templates workflow](skeletons-templates-workflow.md).
