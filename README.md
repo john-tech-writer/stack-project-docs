@@ -4,6 +4,8 @@
 
 created 8.6.26
 
+*test*
+
 This repository / site / project is mainly intended to provide a general-purpose skeleton for creating a media stack for technical documentation. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content. 
 
 This stack models a robust workflow for known, well-researched technical authoring best practices:
