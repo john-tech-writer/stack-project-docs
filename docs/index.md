@@ -25,7 +25,11 @@ Leaning on the workflow document solves decision fatigue: if the project / stack
 
 ## Origins - where it came from
 
-These documents were developed from a documentation project that has grown organically, so they represent best practices, tried and refined for real-world application. The basic proof of concept is in the inital project that spawned this one, so to speak - the [Vintage Reel Service Guides](https://vintage-reel-service-guides.com) repository and media stack. After a few months of development this original project began to look like "the bow of the ship:" a good and worthy free-standing project and example, but much more than that, a demonstration project for something with much broader, Swiss-army-knife-like utility for documenting any complex how-to process, whether mechanical / industrial or software-based. That original project housed the original project docs folder that contained docs about evolving workflow, standards, directory structure, and the past and future of the project. These project docs eventually spun off as this new free-standing repository.
+These documents were developed from a documentation project that has grown organically, so they represent best practices, tried and refined for real-world application. The basic proof of concept is in the inital project that spawned this one, so to speak - the [Vintage Reel Service Guides](https://vintage-reel-service-guides.com) repository and media stack.
+
+After a few months of development this original project began to look like "the bow of the ship:" a good and worthy free-standing project and example, but much more than that, a demonstration project for something with much broader, Swiss-army-knife-like utility for documenting any complex how-to process, whether mechanical / industrial or software-based.
+
+That original project housed the original project docs folder that contained docs about evolving workflow, standards, directory structure, and the past and future of the project. These project docs eventually spun off as this new free-standing repository.
 
 ## Where it's going
 
