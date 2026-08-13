@@ -16,9 +16,9 @@ nav:
       - Video workflow: audio-video-workflow.md
       - Backup workflow: backup-workflow.md
   Planning - Future - History:
-    - Volume Planning: volume-planning.md
-    - Parking Lot: parking-lot.md
-    - Changelog: changelog.md
+      - Volume Planning: volume-planning.md
+      - Parking Lot: parking-lot.md
+      - Changelog: changelog.md
 theme:
   name: readthedocs
 
