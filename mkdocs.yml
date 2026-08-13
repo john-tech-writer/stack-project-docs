@@ -2,7 +2,7 @@ site_name: Stack Project Docs
 site_url: https://john-tech-writer.github.io/stack-project-docs
 
 nav:
-  - Home - about this repository: index.md
+  - Home: index.md
     - README - files and relationships: orientation.md
   - Standards - Structure - Lists:
       - Naming and slugs: naming-slugs.md
