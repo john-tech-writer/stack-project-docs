@@ -2,23 +2,24 @@ site_name: Stack Project Docs
 site_url: https://john-tech-writer.github.io/stack-project-docs
 
 nav:
-  - Home: index.md
-  - Changelog: changelog.md
-  - Orientation:
-      - README: orientation.md
-      - Directory Layout: directory-layout.md
-      - Naming and Slugs: naming-slugs.md
-      - Parking Lot: parking-lot.md
-  - Content Production Workflow:
-      - Volume Planning: volume-planning.md
-      - Image Workflow: image-workflow.md
-      - Image Lists: image-lists.md
-      - Audio - Video Workflow: audio-video-workflow.md
-      - Backup Workflow: backup-workflow.md
-  - Publishing:
-      - Substack Standards and Series: substack-standards-series.md
-  - Templates:
-      - Skeletons and Templates Workflow: skeletons-templates-workflow.md
+  - Home:
+    - About this repository: index.md
+    - README - files and relationships: orientation.md
+  - Standards - Structure - Lists:
+      - Naming and slugs: naming-slugs.md
+      - Directory layout: directory-layout.md
+      - Skeletons and templates: skeletons-templates-workflow.md
+      - Substack standards and series: substack-standards-series.md
+      - Image lists: image-lists.md
+  - Workflows:
+      - Project workflow: project-workflow.md
+      - Image workflow: image-workflow.md
+      - Video workflow: audio-video-workflow.md
+      - Backup workflow: backup-workflow.md
+  Planning - Future - History:
+    - Volume Planning: volume-planning.md
+    - Parking Lot: parking-lot.md
+    - Changelog: changelog.md
 theme:
   name: readthedocs
 

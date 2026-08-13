@@ -11,7 +11,7 @@ Skeletons are provided for a set of project docs, encompassing:
 
   - A posting hub for narrative content and notifications.
 
-This model treats project documentation as an *ongoing dialogic process* rather than a static, monolithic entity, and at the same time provide many tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end in itself. They are intended to represent a "gold standard" for technical documentation, supported by many years of practical experience, research, and deep integration with AI-assisted authoring.
+This model treats project documentation as an *ongoing dialogic process* rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. It is intended to model a "gold standard" for technical documentation, supported by many years of practical experience, research, and deep integration with AI-assisted authoring.
 
 ## Project philosophy
 
