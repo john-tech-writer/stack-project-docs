@@ -3,7 +3,6 @@ site_url: https://john-tech-writer.github.io/stack-project-docs
 
 nav:
   - Home: index.md
-  - README - files and relationships: orientation.md
   - Standards - Structure - Lists:
       - Naming and slugs: naming-slugs.md
       - Directory layout: directory-layout.md

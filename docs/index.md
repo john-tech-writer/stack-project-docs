@@ -3,7 +3,8 @@
 The stack-project-docs repository / site / project provides a model and methodology for creating technical documentation projects which include a media stack. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content.
 
 This model / methodology is intended to be flexible and general-purpose, but is probably best suited for how-to documentation projects which are expected to extend over multiple years and volumes.
-Skeletons are provided for a set of project docs, encompassing:
+
+Skeletons are provided for a set of project docs which describe the standards and workflow for:
 
   - A repository for core technical documentation.
 
@@ -13,15 +14,39 @@ Skeletons are provided for a set of project docs, encompassing:
 
 This model treats project documentation as an *ongoing dialogic process* rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. It is intended to model a "gold standard" for technical documentation, supported by many years of practical experience, research, and deep integration with AI-assisted authoring.
 
+This skeleton / model is suitable for a wide range of projects, from hardware-oriented maintenance and repair work to software-based workflows. The project documents here were developed over the course of about six months in parallel with a real demo project, which can be viewed at vintage-reel-service-guides.com.
+
+The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
+
+This model is suitable for procedural docs, conceptual / overview docs, and reference docs. If you are familiar with the DITA model, all this will seem very familiar. Also important, this site both explains and models how to organize the content in meaningful ways beyond the full-text search.
+
+In this stack design, the media stack elements provide a ready-made audience platform for video and narrative content which points back to the core technical documents that live in the repository:
+
+```mermaid
+
+flowchart TD
+  A[GitHub repository - technical content hosting]
+  A --> Y[YouTube channel - video content hosting]
+  A --> S[Substack - narrative and notification hub]
+
+```
+## Audience
+
+This project is intended for solo technical writers, hobbyist experts, and small teams documenting a specific craft, repair domain, or product line — the kind of project that accumulates procedural knowledge across many volumes over several years and benefits from a repeatable, integrated repo-plus-video-plus-narrative system.
+
+It assumes basic comfort with Markdown, Git/GitHub, and the command line, but not software engineering expertise.
+
+If you're weighing whether a wiki, a single long document, or a full documentation platform fits your project, this model is built for the middle case: too much material for one file, not enough infrastructure need to justify a heavier docs platform.
+
 ## Project philosophy
 
-**Let the real work teach what the theory should look like**. As project content is developed, the workflow can be abstracted and made concrete. This knowledge can be documented in one central file, the [project workflow document](project-workflow.md) - to capture how ideas are developed and implemented over time. Iterations on lived - and living - dynamic examples result in constant improvement.
+**Let the real work teach what the theory should look like**. As project content is developed, standards and workflow can be abstracted and made concrete. This knowledge can be documented in a set of project documents which capture how ideas are developed and implemented over time. Iterations on lived and living, dynamic examples result in constant improvement.
 
-Workflow documentation informs ongoing content development and the content development in turn informs the evolution of the workflow. This includes processes, naming standards, software tools, and all the rest of the machinery that moves the project forward and makes content stylistically coherent and repeatable.
+Project documentation informs ongoing content development, which in turn informs the evolution of the workflow. These documents aim to describe all workflows, naming standards and directory structures, software tools, and all the rest of the machinery that moves the project forward and makes content stylistically coherent and repeatable.
 
-The workflow document is the **one place** to always return to push the project a little further: cleaning dirs, tightening steps, wiring pieces together. Every pass makes the project flow better: clearer naming, better links, more honest reflection of how project work is actually accomplished, not some abstract ideal.
+Every pass on the project docs makes the workflow better and  moves the project one notch higher. Cleaning directories, tightening steps, and wiring pieces together all help to implement honest reflection of how project work is actually accomplished, not some abstract ideal.
 
-Leaning on the workflow document solves decision fatigue: if the project / stack feels overwhelming - slugs / naming, badge / design, Substack / narrative, YouTube / video, reels / content sourcing - the project workflow file can be opened, reviewed, worked on, and will move the project one notch higher. **That counts**.
+That counts.
 
 ## Origins - where it came from
 
@@ -33,7 +58,9 @@ That original project housed the original project docs folder that contained doc
 
 ## Direction - where it's going
 
-This current iteration (August 2026) is newly spun-off from the parent project, and needs much work to become the vision of its creators. The [change log](changelog.md) provides details of the first wave of fixes, and a record. These will take some time. Meanwhile, Vintage Reel Service Guides will go on, and what's learned there will be applied here. This site will retain the character of the Vintage Reel site because it also guides that site's development. It's a true skeleton in that it provides structure, standards, prompts, and example content. But again, the main idea here is that this is all adaptable to many other how-to documentation projects.
+This current iteration (August 2026) is newly spun-off from the parent project, and needs much work to become the vision of its creators. The [change log](changelog.md) provides details of the first wave of fixes, and a record. These will take some time. Meanwhile, Vintage Reel Service Guides will go on, and what's learned there will be applied here.
+
+This project will retain the character of the Vintage Reel project because it also guides that site's development. It's a true skeleton in that it provides structure, standards, prompts, and example content. But again, the main idea here is that this is all adaptable to many other how-to documentation projects.
 
 The eventual goal is to craft a coherent workflow for technical documentation development and ongoing management which integrates elements of the repository - version control, local authoring using simple markup for universality, and built-in support for web deployment and collaboration - wired together with already-existing video and narrative / notification platforms.
 
