@@ -1,6 +1,6 @@
-# About the stack-project-docs repository
+# About this repository - description - purpose
 
-This repository / site / project provides a model and methodology for creating technical documentation projects which include a media stack. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content.
+The stack-project-docs repository / site / project provides a model and methodology for creating technical documentation projects which include a media stack. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content.
 
 This model / methodology is intended to be flexible and general-purpose, but is probably best suited for how-to documentation projects which are expected to extend over multiple years and volumes.
 Skeletons are provided for a set of project docs, encompassing:
@@ -31,7 +31,7 @@ After a few months of development this original project began to look like "the 
 
 That original project housed the original project docs folder that contained docs about evolving workflow, standards, directory structure, and the past and future of the project. These project docs eventually spun off as this new free-standing repository.
 
-## Where it's going
+## Direction - where it's going
 
 This current iteration (August 2026) is newly spun-off from the parent project, and needs much work to become the vision of its creators. The [change log](changelog.md) provides details of the first wave of fixes, and a record. These will take some time. Meanwhile, Vintage Reel Service Guides will go on, and what's learned there will be applied here. This site will retain the character of the Vintage Reel site because it also guides that site's development. It's a true skeleton in that it provides structure, standards, prompts, and example content. But again, the main idea here is that this is all adaptable to many other how-to documentation projects.
 
