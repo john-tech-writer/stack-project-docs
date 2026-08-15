@@ -46,7 +46,6 @@ This current iteration (August 2026) is newly spun-off from the parent project, 
 
 This project will retain the character of the Vintage Reel project because it also guides that site's development. It's a true skeleton in that it provides structure, standards, prompts, and example content. But again, the main idea here is that this is all adaptable to many other how-to documentation projects.
 
-
 ## Content model
 
 This model treats project documentation as an ongoing dialogic process rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. Echoes of DITA can be noted in the way it divides content into procedures, concepts / overviews, and references, while remaining more flexible.

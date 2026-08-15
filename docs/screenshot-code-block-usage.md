@@ -46,7 +46,7 @@ Use only a **typed tree** when:
 
 Use only a **screenshot** when:
 
-  - You are teaching a GUI action, such as “expand docs, then select img/screen-shots.”
+  - You are teaching a GUI action, such as “expand docs, then select img/screenshots.”
 
   - The point is the application’s state, labels, buttons, or visual cues — not the directory names as a *formal specification*.
 
