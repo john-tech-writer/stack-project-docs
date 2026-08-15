@@ -1,5 +1,7 @@
 # Using screenshots and typed code blocks
 
+These guidelines are mostly intended for stack-project-docs internal use, to document directories, structures, files, and (for screencasts) procedures.
+
 As a tech writing best practice, there are sometimes good reasons to show both screenshots and typed code blocks, and the [directory-layout](directory-layout.md) page is a strong example. The typed directory tree is the authoritative, copyable reference and the screenshot shows readers what the structure actually looks like in Windows Explorer and reassures them that the tree corresponds to a real working repository.
 
 The screnshot can also offer a bonus by showing the date, file size, etc. in the detail view.
@@ -67,11 +69,19 @@ screenshots/
   affinity-export-panel.jpg
   github-desktop-commit.jpg
   mkdocs-nav-structure.jpg
+```
 
+Then a workflow page can pair a brief written procedure with a screenshot at key decision points and a screencast for the full sequence. That gives readers a searchable, copyable reference while still offering the visual “show me exactly how” version.
+
+## Screencasts
+
+Screencasts will mostly be used to demonstrate procedures, such as working with images in Affinity and working with videos in Shotcut. This section will get more filled out as this repository becomes more mature and tools are standardized.
+
+As for images, use descriptive, task-based names for screencasts, e.g.:
+
+```
 screencasts/
   affinity-crop-and-export.mp4
   github-desktop-rename-case.mp4
   shotcut-caption-workflow.mp4
 ```
-
-Then a workflow page can pair a brief written procedure with a screenshot at key decision points and a screencast for the full sequence. That gives readers a searchable, copyable reference while still offering the visual “show me exactly how” version.

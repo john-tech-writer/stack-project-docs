@@ -1,14 +1,14 @@
 # Project workflow
 
-This file provides the basic roadmap for navigating, creating, and managing all project content. [README](orientation.md) provides an orientation to the overall internal project documentation. The following sections describe the project standards and workflow.
+This file provides the basic roadmap for navigating, creating, and managing all project content. [README](README.md) provides an orientation to the overall internal project documentation. The following sections describe the project standards and workflow.
 
 The workflow for this project is organized logically into the type of content being authored. This is driven partly by the actual physical processes involved in creating the content - e.g., the processes of photographing the reels, taking them apart, and creating videos - as well as the form that content takes (text, photos, videos, audio) and the delivery platform (GitHub, YouTube, Substack). So, the workflow logically divides into the following phases for any one reel across the entire project workflow:
 
-  - Overviews for the repository and their companion videos.
+  - Overviews for the repository, their images, their companion videos, and their overview (Welcome to the bench post) counterparts on Substack.
 
-  - Service guides for the repository and their companion videos.
+  - Service guides for the repository, their images, their companion videos, and the notification posts on Substack.
 
-  - Additional narrative content for Substack.
+  - Additional, ongoing, less structured narrative content for Substack.
 
 ## Overview workflow
 
@@ -62,24 +62,10 @@ The workflow for this project is organized logically into the type of content be
 
     See [Substack standards and series](substack-standards-series.md) and See [Skeletons and templates workflow](skeletons-templates-workflow.md).
 
-## Substack workflow
+## Substack additional content workflow
 
 The other couple of Substack series can be published on a looser schedule. See [Substack standards and series](substack-standards-series.md).
 
 When service is completed on a reel, write one or more "Reel stories," about test casting, taking it into the field, how it performs, how it is integrated with other tackle to make a balanced outfit, what fish are sought and caught.
 
 "Production notes" can be published anytime as occasional features. Progress milestones during a stack production run make good subjects, like how the lighting is done / changed / etc.
-
-# Standards
-
-**Naming and slugs**: Disciplined naming standards codify important principles so authors do not have to reinvent the wheel over and over.
-
-All reels and other project content sources are assigned a slug for easy and consistent identification across all directories and usages.
-
-See [Naming and slugs](naming-slugs.md).
-
-**Skeletons and templates**: As with naming standards, skeletons / templates codify important principles for authoring stylistically consitent content.
-
-All content is based on skeletons / templates which enforce evolving content standards and help jog memory and ideas.
-
-See [Skeletons and templates workflow](skeletons-templates-workflow.md).

@@ -1,6 +1,8 @@
 # Skeletons and templates
 
-Templates typically just provide a form - headings and a few prompts. Skeletons provide form plus some example content. Templates and skeletons provide a starting point for every content file. They enforce standards for form, headings, style, and content.
+Templates typically just provide a form - headings and a few prompts. Skeletons provide form plus some example content. Templates and skeletons provide a starting point for every content file, enforce evolving standards for form, headings, style, and content, and help jog memory and ideas.
+
+As with naming standards, skeletons / templates codify important principles for authoring stylistically consistent content.
 
 Best‑practice pattern for document templates / skeletons development:
 
@@ -50,7 +52,7 @@ Usage:
 
     There may be some back and forth between the local description example and the online draft for convenience in drafting but there is no need to save most of these descriptions locally since they are fairly generic. One or two examples of each type are enough.
 
-### Video templates
+## Video templates
 
 Live in the Video media folder `templates/`
 
@@ -86,8 +88,5 @@ Each post will be based on, authored, and saved using the following series names
 
   - **Local skeletons** - in workspace `/substack/templates-skeletons/[series-name]-skeleton.md` Conceptual pattern for each series: headings, section order, prompt comments, and only light example text. Use this to design or revise the structure of the series.
 
-    Lock the local as “frozen reference,” and treat the pairing between local skeleton and Substack skeleton as the living thing you revise over time. Only edit structure in the local skeleton. For substantive changes, e.g., add / remove a section, update the Substack template to match and note the update in a change log in the skeleton’s header, like: 
-
-*Service guide skeleton (v1)*
-*Last synced to Substack template: 2026‑06‑11*
+    Lock the local as “frozen reference,” and treat the pairing between local skeleton and Substack skeleton as the living thing you revise over time. Only edit structure in the local skeleton. For substantive changes, e.g., add / remove a section, update the Substack template to match and note the update in a change log in the skeleton’s header, like: *Last synced to Substack template 6.11.26*
 

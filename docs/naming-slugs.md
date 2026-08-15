@@ -1,6 +1,10 @@
 # Naming and slugs
 
-Disciplined naming of directories and files keeps large projects more manageable. As this project goes through iteratations and refactors it's expected that the naming conventions and standards will evolve. This document is where it all gets documented.
+Disciplined naming of directories and files keeps large projects more manageable. Consistent naming standards make it easier to locate files, especially over the course of a multi-volume, multi-year project.
+
+As this project goes through iteratations and refactors it's expected that the naming conventions and standards will evolve.
+
+All reels and other project content sources are assigned a slug for easy and consistent identification across all directories and usages.
 
 ## Slugs
 
