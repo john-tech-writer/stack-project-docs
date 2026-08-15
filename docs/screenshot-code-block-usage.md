@@ -6,10 +6,10 @@ The screnshot can also offer a bonus by showing the date, file size, etc. in the
 
 The [directory-layout](directory-layout.md) page screenshot is especially justified because this page seems to be doing double duty: (1) defining the project architecture and (2) helping re-orient in a new repository.
 
-| Element                              | What it does best                                                                                               | Limitations                                                                                                |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Typed directory tree in a code block | Exact paths, file names, hierarchy, easy copying, easy searching, accessible to screen readers                  | More abstract; a new user may not immediately connect it to File Explorer                                  |
-| Explorer screenshot                  | Orientation, visual confirmation, recognizability for Windows users, showing where folders sit in the interface | Not copyable/searchable; small text can be difficult to read; becomes stale whenever the structure changes |
+| Element | What it does best | Limitations |
+| -- | -- | -- |
+| Typed directory tree<br>in code block | Exact paths, file names, hierarchy<br>Easy copying, searching,<br>Accessible to screen readers | More abstract<br>New user may not connect to<br>File Explorer |
+| Explorer screenshot | Orientation<br>Visual confirmation<br>Recognizability for Windows users<br>Showing where folders sit in interface | Not copyable / searchable<br>Small text can be difficult to read<br>Becomes stale when structure changes |
 
 Make the purposes for images vs. typed blocks explicit, e.g.:
 
@@ -62,6 +62,7 @@ That avoids turning every routine addition of an image, Markdown page, or styles
 
 Use descriptive, task-based names, e.g.:
 
+```
 screenshots/
   affinity-export-panel.jpg
   github-desktop-commit.jpg
@@ -71,5 +72,6 @@ screencasts/
   affinity-crop-and-export.mp4
   github-desktop-rename-case.mp4
   shotcut-caption-workflow.mp4
+```
 
 Then a workflow page can pair a brief written procedure with a screenshot at key decision points and a screencast for the full sequence. That gives readers a searchable, copyable reference while still offering the visual “show me exactly how” version.
