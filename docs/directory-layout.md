@@ -1,43 +1,43 @@
 # Directory layout
 
+This diagram shows the stack-project-docs GitHub repository structure.
+
 ```
 - stack-project-docs/
   - .git/
   - .github/
   - docs/
-    - index.md                       # Home — the site's About... page
-    - directory-layout.md
-    - naming-slugs.md
-    - parking-lot.md
-    - volume-planning.md
-    - image-workflow.md
-    - image-lists.md
     - audio-video-workflow.md
     - backup-workflow.md
     - changelog.md
+    - directory-layout.md
+    - image-lists.md
+    - image-workflow.md
+    - index.md                       # Home — the site's About... page
+    - naming-slugs.md
+    - parking-lot.md
     - project-workflow.md
-    - substack-standards-series.md
+    - README.md                      # Orientation to this doc set
+    - screenshot-code-block-usage.md
     - skeletons-templates-workflow.md
+    - substack-standards-series.md
+    - volume-planning.md
     - img/
-      - screen-shots/
+      - screenshots/
       - screencasts/
     - stylesheets/
       - extra.css
   - mkdocs.yml
-  - README.md                      # Orientation to this docs set
+  - README.md                      # Orientation to the repo
   - requirements.txt
 ```
 
-![Directory layout 1](img/screen-shots/dir-layout-1.jpg)
-
-![Directory layout 2](img/screen-shots/dir-layout-2.jpg)
-
 <figure markdown>
-![Directory layout 1](img/screen-shots/dir-layout-1.jpg)
-<figcaption>Directory layout 1</figcaption>
+![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
+<figcaption>File Explorer view confirming the `docs/img` asset folders in the local `stack-project-docs` repository</figcaption>
 </figure>
 
 <figure markdown>
-![Directory layout 2](img/screen-shots/dir-layout-2.jpg)
-<figcaption>Directory layout 2</figcaption>
+![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the files](img/file-explorer-doc-files.jpg)
+<figcaption>File Explorer view confirming the `docs/` asset folder and files in the local `stack-project-docs` repository</figcaption>
 </figure>

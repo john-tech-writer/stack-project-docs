@@ -9,6 +9,7 @@ nav:
       - Skeletons and templates: skeletons-templates-workflow.md
       - Substack standards and series: substack-standards-series.md
       - Image lists: image-lists.md
+      - Screenshot and code block usage: screenshot-code-block-usage.md
   - Workflows:
       - Project workflow: project-workflow.md
       - Image workflow: image-workflow.md
