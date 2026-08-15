@@ -29,8 +29,3 @@
 ```
 
 ![Directory layout 1](img/screen-shots/dir-layout-1.jpg)
-
-<figure markdown>
-![Directory layout 1](img/screen-shots/dir-layout-1.jpg)
-<figcaption>Directory layout 1t</figcaption>
-</figure>
