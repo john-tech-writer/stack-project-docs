@@ -12,6 +12,8 @@ Skeletons are provided for a set of project docs which describe the standards an
 
   - A posting hub for narrative content and notifications.
 
+The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
+
 ## Audience
 
 This project is intended for solo technical writers, hobbyist experts, and small teams documenting a specific craft, repair domain, or product line — the kind of project that accumulates procedural knowledge across many volumes over several years and benefits from a repeatable, integrated repo-plus-video-plus-narrative system.
@@ -44,15 +46,14 @@ This current iteration (August 2026) is newly spun-off from the parent project, 
 
 This project will retain the character of the Vintage Reel project because it also guides that site's development. It's a true skeleton in that it provides structure, standards, prompts, and example content. But again, the main idea here is that this is all adaptable to many other how-to documentation projects.
 
-The eventual goal is to craft a coherent workflow for technical documentation development and ongoing management which integrates elements of the repository - version control, local authoring using simple markup for universality, and built-in support for web deployment and collaboration - wired together with already-existing video and narrative / notification platforms.
-
-This workflow takes full advantage of the most current online tools. The tools provide the delivery platforms and deep knowledge of technical writing practice and craft provides the reality check - does this actually work? Is it adaptable to a wide range of projects? The intent here is to make sure both answers are "yes."
 
 ## Content model
 
 This model treats project documentation as an ongoing dialogic process rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. Echoes of DITA can be noted in the way it divides content into procedures, concepts / overviews, and references, while remaining more flexible.
 
-This stack design uses media elements to widen readership, using video and narrative content which points back to the core technical documents in the repository:
+The goal here is to craft a coherent workflow for technical documentation development and ongoing management which integrates elements of the repository - version control, local authoring using simple markup for universality, and built-in support for web deployment and collaboration - wired together with already-existing video and narrative / notification platforms.
+
+Media elements are used to widen readership, using video and narrative content which points back to the core technical documents in the repository:
 
 ```mermaid
 

@@ -4,7 +4,7 @@ These guidelines are mostly intended for stack-project-docs internal use, to doc
 
 As a tech writing best practice, there are sometimes good reasons to show both screenshots and typed code blocks, and the [directory-layout](directory-layout.md) page is a strong example. The typed directory tree is the authoritative, copyable reference and the screenshot shows readers what the structure actually looks like in Windows Explorer and reassures them that the tree corresponds to a real working repository.
 
-The screnshot can also offer a bonus by showing the date, file size, etc. in the detail view.
+The screenshot can also offer a bonus by showing the date, file size, etc. in the detail view.
 
 The [directory-layout](directory-layout.md) page screenshot is especially justified because this page seems to be doing double duty: (1) defining the project architecture and (2) helping re-orient in a new repository.
 
@@ -23,8 +23,8 @@ Make the purposes for images vs. typed blocks explicit, e.g.:
 
   - Add an informative figure caption - what the screenshot is meant to establish, for example:
 
-<figure markdown="span">
-![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screen-shots, and stylesheets folders](img/screen-shots/dir-layout-1.jpg)
+<figure markdown>
+![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
 <figcaption>File Explorer view confirming the `docs/img` asset folders in the local `stack-project-docs` repository</figcaption>
 </figure>
 
