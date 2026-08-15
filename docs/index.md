@@ -12,29 +12,11 @@ Skeletons are provided for a set of project docs which describe the standards an
 
   - A posting hub for narrative content and notifications.
 
-This model treats project documentation as an *ongoing dialogic process* rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. It is intended to model a "gold standard" for technical documentation, supported by many years of practical experience, research, and deep integration with AI-assisted authoring.
-
-This skeleton / model is suitable for a wide range of projects, from hardware-oriented maintenance and repair work to software-based workflows. The project documents here were developed over the course of about six months in parallel with a real demo project, which can be viewed at vintage-reel-service-guides.com.
-
-The documents include not only general guidelines and structure, but also prompts to help kick-start the process of authoring content. They also include more specific, concrete instructions for tool use, which is often a very time consuming aspect of new projects. For example, basic instructions are provided for using Shotcut to create and edit videos.
-
-This model is suitable for procedural docs, conceptual / overview docs, and reference docs. If you are familiar with the DITA model, all this will seem very familiar. Also important, this site both explains and models how to organize the content in meaningful ways beyond the full-text search.
-
-In this stack design, the media stack elements provide a ready-made audience platform for video and narrative content which points back to the core technical documents that live in the repository:
-
-```mermaid
-
-flowchart TD
-  A[GitHub repository - technical content hosting]
-  A --> Y[YouTube channel - video content hosting]
-  A --> S[Substack - narrative and notification hub]
-
-```
 ## Audience
 
 This project is intended for solo technical writers, hobbyist experts, and small teams documenting a specific craft, repair domain, or product line — the kind of project that accumulates procedural knowledge across many volumes over several years and benefits from a repeatable, integrated repo-plus-video-plus-narrative system.
 
-It assumes basic comfort with Markdown, Git/GitHub, and the command line, but not software engineering expertise.
+It assumes basic comfort with Markdown, Git/GitHub, and the command line, but not software engineering expertise. Markdown and GitHub skills can be developed from scratch in a few weeks of dedicated Q & A with a good AI agent.
 
 If you're weighing whether a wiki, a single long document, or a full documentation platform fits your project, this model is built for the middle case: too much material for one file, not enough infrastructure need to justify a heavier docs platform.
 
@@ -66,3 +48,17 @@ The eventual goal is to craft a coherent workflow for technical documentation de
 
 This workflow takes full advantage of the most current online tools. The tools provide the delivery platforms and deep knowledge of technical writing practice and craft provides the reality check - does this actually work? Is it adaptable to a wide range of projects? The intent here is to make sure both answers are "yes."
 
+## Content model
+
+This model treats project documentation as an ongoing dialogic process rather than a static, monolithic entity, and at the same time provides tools for preventing the process from becoming an infinitely expanding, difficult-to-maintain end-in-itself. Echoes of DITA can be noted in the way it divides content into procedures, concepts / overviews, and references, while remaining more flexible.
+
+This stack design uses media elements to widen readership, using video and narrative content which points back to the core technical documents in the repository:
+
+```mermaid
+
+flowchart TD
+  A[GitHub repository - technical content hosting]
+  A --> Y[YouTube channel - video content hosting]
+  A --> S[Substack - narrative and notification hub]
+
+```
