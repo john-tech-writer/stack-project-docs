@@ -28,4 +28,6 @@
   - requirements.txt
 ```
 
-![Directory layout 1](./img/screen-shots/dir-layout-1.JPG)
+![Directory layout 1](./img/screen-shots/dir-layout-1.jpg)
+
+![Directory layout 2](./img/screen-shots/dir-layout-2.jpg)
