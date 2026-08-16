@@ -35,7 +35,7 @@ This diagram shows the stack-project-docs GitHub repository structure. All proje
 The following screenshots show what the structure actually looks like in Windows Explorer.
 
 <figure markdown>
-![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders-auto-contrast-levels-1800px.jpg)
+![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders-auto-contrast-levels-800px.jpg)
 <figcaption>File Explorer view confirming the <code>docs/img</code> asset folders in the local <code>stack-project-docs</code> repository</figcaption>
 </figure>
 
