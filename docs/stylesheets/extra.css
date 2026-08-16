@@ -1,4 +1,6 @@
 figcaption {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.85em;      /* slightly stronger reduction */
+  font-style: italic;      /* or a lighter color, e.g. color: #666; */
+  margin-top: 0.5em;
 }
