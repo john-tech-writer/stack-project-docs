@@ -22,6 +22,14 @@ Make the purposes for images vs. typed blocks explicit, e.g.:
   - Place the screenshot immediately after it.
 
   - Add an informative figure caption - what the screenshot is meant to establish, for example:
+```
+<figure markdown>
+![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
+<figcaption>File Explorer view confirming the `docs/img` asset folders in the local `stack-project-docs` repository</figcaption>
+</figure>
+```
+
+Which renders as:
 
 <figure markdown>
 ![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
