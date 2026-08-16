@@ -21,7 +21,7 @@ Make the purposes for images vs. typed blocks explicit, e.g.:
 
   - Place the screenshot immediately after it.
 
-  - Add an informative figure caption - what the screenshot is meant to establish
+  - Add an informative figure caption - what the screenshot is meant to establish.
 
 Here's an example of the code - note that within the HTML wrapper (the `<figure>` tag) you must use HTML for markup rather than Markdown, e.g., outside the wrapper you can mark code using backticks but inside the wrapper you have to use `<code>`:
 
