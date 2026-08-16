@@ -28,7 +28,7 @@ Here's an example of the code - note that within the HTML wrapper (the `<figure>
 ```
 <figure markdown>
 ![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
-<figcaption><em>File Explorer view confirming the <code>docs/img</code> asset folders in the local <code>stack-project-docs</code> repository</em></figcaption>
+<figcaption>File Explorer view confirming the <code>docs/img</code> asset folders in the local <code>stack-project-docs</code> repository</figcaption>
 </figure>
 ```
 
