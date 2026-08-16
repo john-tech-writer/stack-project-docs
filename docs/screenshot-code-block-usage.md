@@ -21,11 +21,14 @@ Make the purposes for images vs. typed blocks explicit, e.g.:
 
   - Place the screenshot immediately after it.
 
-  - Add an informative figure caption - what the screenshot is meant to establish, for example:
+  - Add an informative figure caption - what the screenshot is meant to establish
+
+Here's an example of the code - note that within the HTML wrapper (the `<figure>` tag) you must use HTML for markup rather than Markdown, e.g., outside the wrapper you can mark code using backticks but inside the wrapper you have to use `<code>`:
+
 ```
 <figure markdown>
 ![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
-<figcaption>File Explorer view confirming the `docs/img` asset folders in the local `stack-project-docs` repository</figcaption>
+<figcaption><em>File Explorer view confirming the <code>docs/img</code> asset folders in the local <code>stack-project-docs</code> repository</em></figcaption>
 </figure>
 ```
 
@@ -33,7 +36,7 @@ Which renders as:
 
 <figure markdown>
 ![Windows File Explorer showing the stack-project-docs repository, with docs expanded to reveal the img, screencasts, screenshots, and stylesheets folders](img/screenshots/file-explorer-dir-folders.jpg)
-<figcaption>File Explorer view confirming the `docs/img` asset folders in the local `stack-project-docs` repository</figcaption>
+<figcaption>File Explorer view confirming the <code>docs/img</code> asset folders in the local <code>stack-project-docs</code> repository</figcaption>
 </figure>
 
 The visible code block already supplies the detailed textual equivalent, so the alt text can remain focused on what only the screenshot adds: its File Explorer context and the visible expansion of docs/img.
