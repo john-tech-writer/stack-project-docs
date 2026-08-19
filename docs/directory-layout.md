@@ -23,12 +23,13 @@ This diagram shows the stack-project-docs GitHub repository structure. All proje
     - substack-standards-series.md
     - volume-planning.md
     - img/
-      - screenshots/
       - screencasts/
+      - screenshots/
+        - [slug].jpg
     - stylesheets/
       - extra.css
   - mkdocs.yml
-  - README.md                      # Orientation to the repo
+  - README.md                        # Orientation to the repo
   - requirements.txt
 ```
 
