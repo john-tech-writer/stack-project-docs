@@ -96,3 +96,11 @@ screencasts/
   github-desktop-rename-case.mp4
   shotcut-caption-workflow.mp4
 ```
+
+## ShareX
+
+ShareX is the tool used for screenshots and screencasts for this project. See [ShareX notes](sharex-notes.md).
+
+## HTML / css
+
+More information on using HTML and css for the projects is in the vintage reels workspace `mkdocs-html-css/`
