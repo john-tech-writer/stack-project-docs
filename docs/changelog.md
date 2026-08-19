@@ -1,12 +1,12 @@
 # Changelog
 
-*Last updated: 2026-08-07*
+*updated 8.7.26*
 
-This docs project has a complete structural skeleton and real working content, but a full editorial review (2026-08-06) surfaced redundancies, workflow logic gaps, terminology drift, and a handful of genuine content weaknesses — mostly a natural side effect of heavy consolidation while writing. If you're browsing this repo: nothing below blocks it from being useful today, but the items are being worked through incrementally, in no fixed order, over the coming weeks and months.
+This docs project has a complete structural skeleton and real working content, but a full editorial review surfaced redundancies, workflow logic gaps, terminology drift, and a handful of genuine content weaknesses — mostly a natural side effect of heavy consolidation while writing. If you're browsing this repo: nothing below blocks it from being useful today, but the items are being worked through incrementally, in no fixed order, over the coming weeks and months.
 
-**How to read this:** `[ ]` = open, not started yet. `[x]` = resolved — check it off and add a dated note in the [Progress log](#progress-log) at the bottom saying what changed. Each checklist item has a short one-line summary here; the full reasoning and suggested repair for every item lives in the matching section further down the page, in the same order.
+**How to read this:** `[ ]` = open, not started yet. `[x]` = resolved — checked-off items will have dated note added to the [Progress log](#progress-log) at the bottom stating what changed. Each checklist item has a short one-line summary here - the full reasoning and suggested repair for every item lives in the matching section further down the page, in the same order.
 
-Issues / items noted after the initial list was created on 8.6.26 will be added to [Additional items](#additional-items-found-during-implementation) below with the next `N-#` number and date. New issues will not be mapped / added to the original lettered categories because those map 1:1 to the original 2026-08-06 review and are left alone so that change record stays intact.
+Issues / items noted after the initial list was created will be added to [Additional items](#additional-items-found-during-implementation) below with the next `N-#` number and date. New issues will not be mapped / added to the original lettered categories because those map 1:1 to the original review and are left alone so that change record stays intact.
 
 ## Priority items (fix first)
 

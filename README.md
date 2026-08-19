@@ -3,6 +3,7 @@
 [john-tech-writer.github.io/stack-project-docs](https://john-tech-writer.github.io/stack-project-docs)
 
 *created 8.6.26*
+
 *updated 8.14.26*
 
 This repository / site / project is mainly intended to provide a general-purpose skeleton for creating a media stack for technical documentation. In this model, a GitHub repository anchors the core technical content, YouTube hosts video content, and Substack hosts narrative content. 
@@ -45,4 +46,4 @@ Or push to `main` and let `.github/workflows/deploy.yml` build and deploy automa
 
 ## Directory layout
 
-See [Directory layout](directory-layout.md)
+See [Directory layout](docs/directory-layout.md)
