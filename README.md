@@ -21,7 +21,7 @@ This is a growing and evolving repository and will be updated regularly based on
 
 ## Relationship to other repositories
 
-This repo / site were spun off from the vintage-reel-service-guides GitHub repo.
+This repo / site was spun off from the vintage-reel-service-guides GitHub repo.
 
 The files here were originally Vintage Reels' internal project docs. They are now being developed in a separate repo / site which provides a model and methodology for building multi-year how-to documentation with an integrated video and narrative stack. The Vintage Reels project is a living example of the model and methodology.
 
