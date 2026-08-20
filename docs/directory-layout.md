@@ -1,6 +1,6 @@
 # Directory layout
 
-This diagram shows the stack-project-docs GitHub repository structure. All project documents that get pushed to the repository live in the `docs/` folder. All images live in the `img/` subfolder. testing.
+This diagram shows the stack-project-docs GitHub repository structure. All project documents that get pushed to the repository live in the `docs/` folder. All images live in the `img/` subfolder.
 
 ```
 - stack-project-docs/
