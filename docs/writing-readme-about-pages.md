@@ -33,12 +33,13 @@ The files here are authored locally as Markdown (md) files in Notepad ++ and pus
 
 This README will be updated when major files are added, renamed, moved, or removed and / or if this folder’s purpose changes.
 ```
+
     Note that if both index.md and README.md files are present in `/docs`, MkDocs treats README.md as a competing index-page name and omits it from the generated site. If you want to make a docs README file viewable in the generated site, assign a different filename, like orientation.md.
-    
+
     This file is only discoverable if someone browses on the GitHub repo into `/docs` specifically, which is rare. It should include the repo name and live site link. Do not include in nav / yml. Should include an update line up front.
 
   - **About text block / GitHub repo description**: For people browsing repos on GitHub, should state purpose of repo in one sentence. Displays in profile's repo list, on the repo GitHub front page, and in search results.
 
-  Authored in the GitHub repo front page About space. Should be less than 150 characters. Detailed description should go in an About page. For example, for the Stack repo: "A model and methodology for building multi-year how-to documentation with an integrated video and narrative stack."
+    This text block is authored in the GitHub repo front page About space. Should be less than 150 characters. Detailed description should go in an About page. For example, for the Stack repo: "A model and methodology for building multi-year how-to documentation with an integrated video and narrative stack."
 
   - **About page**: For people visiting the built site, should describe the site in detail - what it is, why it is, purpose, audience, philosophy, origin story, direction, content model. In many cases the About page may be the logical home page - for example, this is the logical case for the stack-project-docs repo - see the About page on the built site [Stack Project Docs home page](https://john-tech-writer.github.io/stack-project-docs)
