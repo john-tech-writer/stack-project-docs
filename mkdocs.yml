@@ -10,6 +10,7 @@ nav:
       - Substack standards and series: substack-standards-series.md
       - Image lists: image-lists.md
       - Screenshot and code block usage: screenshot-code-block-usage.md
+      - Writing README and About pages: writing-readme-about-pages.md
   - Workflows:
       - Project workflow: project-workflow.md
       - Image workflow: image-workflow.md
