@@ -13,3 +13,11 @@ figcaption.cap-long {
   max-width: 34em;       /* narrower than the full column */
   margin: 0.5em auto 0;  /* re-centers within that narrower box */
 }
+
+/* Opt-in wrapping for prose-like examples in code blocks */
+.code-wrap pre,
+.code-wrap code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
