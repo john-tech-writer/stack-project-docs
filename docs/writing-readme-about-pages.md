@@ -10,7 +10,7 @@ Critically, each of these files should do only one job:
 
   It should include instructions for local preview and publishing to GitHub Pages. Should include a directory layout or refer to a separate file. Do not include in nav / yml. Should include an update line up front so readers know it's current.
 
-  - **docs/README file**: Distinct from the root README, lives in the project's `/docs` folder. Should very briefly describe what's in the folder or link to a separate file, the working approach, and maintenance. For an example documentation-set orientation, see the [docs README](README.md).
+  - **docs README file**: Distinct from the root README, lives in the project's `/docs` folder. Should very briefly describe what's in the folder or link to a separate file, the working approach, and maintenance. For an example documentation-set orientation, see the [docs README](README.md).
 
   Only shows up if someone browses on the GitHub repo into `/docs` specifically (rare), should include the repo name and live site link. Do not include in nav / yml. Should include an update line up front.
 
