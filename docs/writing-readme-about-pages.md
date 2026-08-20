@@ -10,7 +10,13 @@ Critically, each of these files should do only one job:
 
     It should include instructions for local preview and publishing to GitHub Pages. Should include a directory layout or refer to a separate file. Do not include in nav / yml. Should include an update line up front so readers know it's current.
 
-  - **docs README file**: Distinct from the root README, lives in the project's `/docs` folder. Should very briefly describe what's in the folder or link to a separate file, the working approach, and maintenance. For an example documentation-set orientation README, see the following example.
+  - **docs README file**: Distinct from the root README, lives in the project's `/docs` folder. Should very briefly describe what's in the folder or link to a separate file, the working approach, and maintenance.
+
+    Note that if both index.md and README.md files are present in `/docs`, MkDocs treats README.md as a competing index-page name and omits it from the generated site. If you want to make a docs README file viewable in the generated site, assign a different filename, like orientation.md.
+
+    This file is only discoverable if someone browses on the GitHub repo into `/docs` specifically, which is rare. It should include the repo name and live site link. Do not include in nav / yml. Should include an update line up front.
+
+    The following code block shows an example documentation-set orientation README:
 
 ```
 # README
@@ -33,10 +39,6 @@ The files here are authored locally as Markdown (md) files in Notepad ++ and pus
 
 This README will be updated when major files are added, renamed, moved, or removed and / or if this folder’s purpose changes.
 ```
-
-    Note that if both index.md and README.md files are present in `/docs`, MkDocs treats README.md as a competing index-page name and omits it from the generated site. If you want to make a docs README file viewable in the generated site, assign a different filename, like orientation.md.
-
-    This file is only discoverable if someone browses on the GitHub repo into `/docs` specifically, which is rare. It should include the repo name and live site link. Do not include in nav / yml. Should include an update line up front.
 
   - **About text block / GitHub repo description**: For people browsing repos on GitHub, should state purpose of repo in one sentence. Displays in profile's repo list, on the repo GitHub front page, and in search results.
 
