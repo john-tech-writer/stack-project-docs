@@ -19,6 +19,7 @@ Critically, each of these files should do only one job:
     The following code block shows an example documentation-set orientation README:
 
 <div class="code-wrap" markdown>
+
 ```
 # README
 
@@ -40,6 +41,7 @@ The files here are authored locally as Markdown (md) files in Notepad ++ and pus
 
 This README will be updated when major files are added, renamed, moved, or removed and / or if this folder’s purpose changes.
 ```
+
 </div>
 
   - **About text block / GitHub repo description**: For people browsing repos on GitHub, should state purpose of repo in one sentence. Displays in profile's repo list, on the repo GitHub front page, and in search results.
