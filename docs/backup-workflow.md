@@ -27,7 +27,8 @@ However:
   - Differential backup: Typically one‑way; it records all changes since the last full backup when a backup job runs, and usually does not mirror deletions the same way.
 
 Your Dropbox desktop app is doing real‑time sync, and under the hood it transfers only changed data blocks, so it behaves “like a differential” in terms of efficiency—but the logic is sync, not a traditional backup system.
-For your reel project use case
+
+## For the reel project use case
 
 Given your workflow:
 
@@ -50,6 +51,11 @@ Vintage Reel Service Guides Project/
   - vintage-reel-service-guides/ (repo)
 
   - vintage-reel-service-guides-workspace/ (project docs & reference)
+
+<figure markdown>
+![Dropbox web view showing the vintage-reel-service-guides backup folders, with root expanded to reveal the workspace, repo mirror, Pictures, and Video folders](img/screenshots/dropbox-folders.png)
+<figcaption class="cap-long">Dropbox web view confirming the backup folders on the remote <code>vintage-reel-service-guides</code> repo mirror backup</figcaption>
+</figure>
 
 ## Second machine (laptop) checklist
 
