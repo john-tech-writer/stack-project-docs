@@ -44,6 +44,8 @@ The workflow for this project is organized logically into the type of content be
 
 7. Create overview video. Follow the procedure in [Audio - video workflow](audio-video-workflow.md).
 
+8. Backup step: At the end of this workflow, sync updated project folders to Dropbox as described in [Backup workflow](backup-workflow.md).
+
 ## Service guide workflow
 
 1. Take a second round of images while disassembling and reassembling reel. Save to the Pictures media folder `/maker and reel docs/[maker]/sg/[slug]-[desc].jpg`
@@ -62,6 +64,8 @@ The workflow for this project is organized logically into the type of content be
 
     See [Substack standards and series](substack-standards-series.md) and See [Skeletons and templates workflow](skeletons-templates-workflow.md).
 
+5. Backup step: At the end of this workflow, sync updated project folders to Dropbox as described in [Backup workflow](backup-workflow.md).
+
 ## Substack additional content workflow
 
 The other couple of Substack series can be published on a looser schedule. See [Substack standards and series](substack-standards-series.md).
@@ -69,3 +73,5 @@ The other couple of Substack series can be published on a looser schedule. See [
 When service is completed on a reel, write one or more "Reel stories," about test casting, taking it into the field, how it performs, how it is integrated with other tackle to make a balanced outfit, what fish are sought and caught.
 
 "Production notes" can be published anytime as occasional features. Progress milestones during a stack production run make good subjects, like how the lighting is done / changed / etc.
+
+Backup step: At the end of this workflow, sync updated project folders to Dropbox as described in [Backup workflow](backup-workflow.md).

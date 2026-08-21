@@ -1,4 +1,4 @@
-# Audio / video workflow
+# Audio / video workflow details
 
 Output: overview and service videos for YouTube.
 

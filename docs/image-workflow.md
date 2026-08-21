@@ -1,4 +1,4 @@
-# Photo workflow
+# Image standards and settings
 
 ## Camera settings
 
@@ -174,7 +174,7 @@ Use numbers sparingly and consistently:
 
     - **Features**: badge / logo, drag, cork-arbor, foot (often has writing on it), anti-rev (anti-reverse lever).
 
-### Naming workflow
+### Naming standards and settings
 
 Import images from card to workspace `/[maker]/[model]/`
 
@@ -188,7 +188,7 @@ R-click, batch convert > Actions tab > Resize to 1800px / longest side, Auto con
 
 Output tab > Folder = various, e.g., images to be used in the repo overview would go to the project folder `/docs/img/[slug]/`
 
-## Video workflow
+## Video standards and settings
 
 ### Cam settings
 
