@@ -1,5 +1,16 @@
 # Backup workflow
 
+For projects that are strictly GiHub-based, such as the Stack project, there is no reason to do backups anywhere else, e.g., Dropbox. For projects that include working and media folders, like the Vintage Reels project, both GitHub and Dropbox should be used.
+
+For day-to-day project backup, Dropbox should primarily cover the workspace and media folders, while GitHub remains the authoritative remote for Git-tracked repositories:
+
+  - GitHub for the published docs / site source and its commit history.
+  - Dropbox for project-development material, raw/final media, Shotcut/Reaper/Affinity files, and other non-repo assets.
+
+Important exception
+
+A Dropbox copy of a repo is not wrong; it is just redundant unless you want an independent disaster-recovery snapshot. GitHub’s own documentation describes a git clone --mirror as a way to back up a repository with its revision history, which is a better repo-specific backup than copying an active working clone with its .git directory into a syncing service.
+
 ## How Dropbox desktop sync works
 
 When you install the Dropbox desktop app, it creates a local “Dropbox” folder and keeps that folder and your online Dropbox account in two‑way sync in the background.
