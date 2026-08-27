@@ -6,6 +6,46 @@ Log more detailed information in a rod-specfic doc in the workspace `rods/[slug]
 
 Capture the rod in an inspection-first format, as detailed in the following sections.
 
+## Collecting guidelines
+
+Acquire vintage rods selectively: one that is visually distinctive, mechanically sound, historically representative, and naturally paired with a documented vintage reel—or sufficiently exceptional to stand on its own.
+
+That keeps the rod collection complementary to the reel archive rather than becoming a second, unbounded collecting category.
+
+| Family                     | Why it earns a place                                                                              | What to seek                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Shakespeare Wonderod       | Foundational fiberglass-era name; numerous identifiable models and catalog references             | Clean original decals, distinctive early hardware, intact wraps, straight blank            |
+| Berkley                    | Strong transition-era fiberglass identity and often excellent cosmetic design                     | Early/interesting colorways, original labeled bag or tube, clean ferrules                  |
+| St. Croix                  | Park Falls heritage; attractive regional American production and varied fiberglass configurations | Clearly marked models, original finish, uncommon colors such as your teal Pacemaker        |
+| Heddon                     | Strong companion brand for vintage casting reels and lures                                        | Pal-style casting rods, original grip and decal, historically coherent configuration       |
+| True Temper / Kalamazoo    | Affordable but historically meaningful American fiberglass rod history                            | Particularly clean examples with interesting hardware or a documented reel connection      |
+| Garcia / Mitchell-era rods | Natural companions for vintage spinning reels                                                     | Marked models with original matching sleeve/bag and period-correct cosmetics               |
+| Fenwick                    | A later but highly collectible fiberglass benchmark                                               | Early yellow-glass or distinctive pre-graphite examples, especially with original markings |
+
+A practical “one in, one story” test
+
+Before buying, see whether it clears all four questions:
+
+    Is it unusually complete and clean? Original decals, wraps, grip, hardware, and bag matter more than mere age.
+
+    Does it represent something specific? A construction development, a manufacturer’s signature series, or a distinctive configuration.
+
+    Can it be paired credibly? With one of your reels, a reel type, or a historically coherent fishing task.
+
+    Will it make a strong page? Full-length beauty image, readable markings, repair/service observations, and an interesting story.
+
+If it cannot produce a worthwhile page or pairing, it is probably an easy pass.
+
+That sounds like a strong foundation. Your “one in, one story” test should work especially well as a guardrail: it honors the visual and historical appeal of the rods while keeping the archive deliberately reel-centered.
+
+When you’re ready, send the workflow document and I can review it for:
+
+- Collecting criteria and clear pass/buy thresholds.
+- Consistent fields for rod identification, construction, condition, and provenance.
+- Photo and measurement checklists suited to a technical archive.
+- A practical inspection, cleaning, preservation, and test-casting sequence.
+- How rod pages can connect cleanly to reel service guides without diluting the site’s central focus.
+
 ## Inspect
 
   - Check the rod blank for lengthwise cracks, whitening, deep scratches, or soft spots, especially around guides and near the handle. Note that most of the vintage rods will be fiberglass / glass.

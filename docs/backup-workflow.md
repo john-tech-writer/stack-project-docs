@@ -59,7 +59,7 @@ Vintage Reel Service Guides Project/
 
   - Video/vintage reel service guides/...
 
-  - vintage-reel-service-guides/ (repo)
+X  - vintage-reel-service-guides/ (repo)
 
   - vintage-reel-service-guides-workspace/ (project docs & reference)
 
