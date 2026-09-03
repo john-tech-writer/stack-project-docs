@@ -2,13 +2,19 @@
 
 *updated 8.7.26*
 
-This is an example of how volume planning can be implemented for a long-term technical documentation project. Volumes can be idiosyncratic - the logic of how much content to include in each volume, the content criteria for each volume, and the overall structure of a multi-volume library should be derived naturally from the material.
+This is an example of how volume planning can be implemented for a long-term technical documentation project. For a long-term project, dividing the content into volumes helps make sense of the material and helps to scope and manage the overall project as it evolves and changes.
 
-In this example, five reels constitutes a substantial but not overwhelming amount of content. The fact that there are several basic reel types suggested that one of each type plus a hybrid or unusual reel would be a logical content selection criteria, along with how iconic certain makers and reel models are in the collecting community literature. Finally, there were enough immediately interesting possibilities to fill five volumes, and beyond planning those five, more volumes can simply use incremental numbering and follow the same content selection criteria. 
+Volumes can be idiosyncratic, as in this project - the logic of how much content to include in each volume, the content criteria for each volume, and the overall structure of a multi-volume library should be derived naturally from the material.
+
+In this Vintage Reel project example, five reels constitutes a substantial but not overwhelming amount of content. The fact that there are several basic reel types suggested that one of each type plus a hybrid or unusual reel would be a logical content selection criteria, along with how iconic certain makers and reel models are in the collecting community literature.
+
+Finally, there were enough immediately interesting possibilities to fill five volumes, and beyond planning those five, more volumes can simply use incremental numbering and follow the same content selection criteria.
+
+The number of reels to include in each volume can remain flexible, for example, as more experience is accumulated and production times decrease it may make sense to have 7 to 10 reels per volume. It may also make sense to include vintage rods and ephemera at some point, although the main focus will remain on the reels.
 
 Content by volume should be represented in the site navigation as one of multiple ways that users can browse the content. Each volume should include a short introductory commentary that explains the content criteria for that volume and the library overall.
 
-Each volume will include one reel of each of the four basic types (spinner, etc.) plus one oddball / novel reel. Each reel will get:
+For the Vintage Reel project each volume will include one reel of each of the four basic types (spinner, etc.) plus one oddball / novel reel. Each reel will get:
 
   - Overview and service guide for repo
 

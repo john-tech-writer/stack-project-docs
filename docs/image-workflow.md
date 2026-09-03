@@ -186,7 +186,7 @@ Open folder in XnView, R-click an image, batch rename: `[slug]-[desc].jpg` for e
 
 R-click, batch convert > Actions tab > Resize to 1800px / longest side, Auto contrast, Auto levels.
 
-Output tab > Folder = various, e.g., images to be used in the repo overview would go to the project folder `/docs/img/[slug]/`
+Output tab > Folder = various, e.g., images to be used in the repo overview would go to the project folder `/docs/img/[maker]/[model]/[slug]-[desc].jpg`
 
 ## Video standards and settings
 

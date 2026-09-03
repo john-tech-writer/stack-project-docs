@@ -16,13 +16,13 @@ Initially (June 2026) there are four Substack series for the VRSG substack. As n
 
 The four initial series titles, tags, and functions:
 
-  - Welcome to the bench: When a new reel comes to the bench, a bit about why and how it was acquired, plans are for it. **Tag = New Arrival**
+  - **Welcome to the bench:** When a new reel comes to the bench, a bit about why and how it was acquired, plans are for it. Tag = New Arrival
 
-  - Production notes: Occasional feature. How images, videos, and other content are made, designed, and managed, on the bench and on the computer. **Tag = Production Notes**
+  - **Production notes:** Occasional feature. How images, videos, and other content are made, designed, and managed, on the bench and on the computer. Tag = Production Notes
 
-  - Reel stories: When service is completed on a reel, a story about taking it into the field, how it performs, where it is integrated with other tackle to make a balanced outfit, what fish are caught. Also stories about how a reel is significant, esp. in my life, for example, the hero post for substack, about my first reel. **Tag = Field Stories**
+  - **Reel stories:** When service is completed on a reel, a story about taking it into the field, how it performs, where it is integrated with other tackle to make a balanced outfit, what fish are caught. Also stories about how a reel is significant, esp. in my life, for example, the hero post for substack, about my first reel. Tag = Field Stories
 
-  - Service guide: Basically a simple notification. When a new overview + guide + video stack is completely published, a notification. **Tag = Guides**
+  - **Service guide:** Basically a simple notification. When a new overview + guide + video stack is completely published, a notification. Tag = Guides
 
 Refer to skeletons, etc. by series name, tag is **only** used in ss.
 

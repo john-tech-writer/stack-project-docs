@@ -2,6 +2,32 @@
 
 This file provides a basic roadmap for creating and managing all project content. This information is specific to the Vintage Reel project but can be generalized to apply to other similar projects. The following sections describe the project standards and workflow.
 
+At a high level the workflow for each reel is:
+
+1. Select, acquire, and log reel →
+
+2. Photograph reel →
+
+3. Draft and publish an initial Substack post →
+
+4. Draft GitHub repo pages locally in Notepad ++ as Markdown files →
+
+5. (Optionally) Serve locally and review →
+
+6. Commit / push / publish the files to the GitHub repo →
+
+4. Verify the Pages build →
+
+5. Record YouTube videos and add VO →
+
+6. Publish videos to YouTube →
+
+7. Update video embeds / links in the repo →
+
+8. Publish the Substack notification
+
+In practice it has worked out that it makes the most sense to create all the overview content first, then the service guide content. Any additional substack content beyond the basic intro / notification posts may be added at any time. So most of these steps are repeated for both the overview and the service guide. This has been driven by the actual work of assessing and servicing each reel.
+
 References to standards for naming files and directories are embedded throughout the workflow but the main reference page is [Naming and slugs](naming-slugs.md).
 
 The workflow for this project is organized logically into the type of content being authored. This is driven partly by the actual physical processes involved in creating the content - e.g., the processes of photographing the reels, taking them apart, and creating videos - as well as the form that content takes (text, photos, videos, audio) and the delivery platform (GitHub, YouTube, Substack). So, the workflow logically divides into the following phases for any one reel across the entire project workflow:
@@ -12,11 +38,15 @@ The workflow for this project is organized logically into the type of content be
 
   - Additional, ongoing, less structured narrative content for Substack.
 
+Vintage rods are being incorporated into the project (August 2026) and will follow more or less the same workflow (simply substitute "rod" for "reel" in most of the workflow doc), with some rod-specific information in [Vintage rod workflow](vintage-rod-workflow.md) - some of this content will probably merge with the overall workflow as the project evolves
+
 ## Overview workflow
 
 1. Select reel based on [Volume planning](volume-planning.md), acquire.
 
-    Add an entry for the reel in workspace `reference docs and books/reel collection.docx`. This file is a record of when each reel was acquired, cost, origin, and notes on what's been done / needs to be done for each reel.
+    Add an entry for the reel in workspace `reel and rod logs/vintage reel log.docx`. This file is a record of when each reel was acquired, cost, origin, and notes on what's been done / needs to be done for each reel.
+
+    There is a separate log for rods in the same folder. Other logs may be added for ephemera, tackle boxes, lures, etc.
 
 2. Acquire all available documentation for the reel, save in workspace `maker and reel docs/[maker]/[slug]-[desc].[ext]` and add entries to project folder `docs/references.md`.
 
@@ -26,7 +56,7 @@ The workflow for this project is organized logically into the type of content be
 
     If documents are obtained from other sources, the files are not included in the project. The source link will be provided in the References page but users may need to pay to view the documents (e.g., ORCA online archives).
 
-3. Take initial photos of reel in one piece using the standards in [Image workflow](image-workflow.md). Save to the Pictures media folder `/maker and reel docs/[maker]/[slug]-[desc].jpg`.
+3. Take initial photos of reel before any servicing using the standards in [Image workflow](image-workflow.md). Save to the Pictures media folder `/maker and reel docs/[maker]/[slug]-[desc].jpg`.
 
     These images will be used initially / primarily for the repo overview. Secondarily some will be used later in the workflow for the repo service guide, videos, and substack posts - anywhere an image of the reel intact is useful.
 
@@ -42,7 +72,7 @@ The workflow for this project is organized logically into the type of content be
 
     See [Substack standards and series](substack-standards-series.md) and See [Skeletons and templates workflow](skeletons-templates-workflow.md).
 
-6. Write overview using skeleton in project folder `repo skeletons/` and save in project folder as `docs/[maker]/[slug]-overview.md.` This will get pushed to the repo.
+6. Write overview using skeleton in workspace folder `repo skeletons/` and save in project folder as `docs/[maker]/[slug]-overview.md.` This will get pushed to the repo.
 
 7. Create overview video. Follow the procedure in [Audio - video workflow](audio-video-workflow.md).
 

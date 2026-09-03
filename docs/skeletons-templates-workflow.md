@@ -34,9 +34,9 @@ The md files are very useful for sending to Perplexity because it does a very go
 
 ## Repo skeletons
 
-Live in the project folder `project-docs/repo skeletons/`
+Live in the workspace folder `repo skeletons/`
 
-Usage: Creating the source files for overviews and service guides on the repo. Open in Notepad ++, Save As to the project folder `docs/[maker]-[slug]-[overview / service-guide].md.` These files get pushed to the repo.
+Usage: Creating the source files for overviews and service guides on the repo. Open in Notepad ++, Save As to the project folder `docs/[maker]/[slug]-[overview / service-guide].md` These files get pushed to the repo.
 
 ##YouTube skeletons / templates
 
