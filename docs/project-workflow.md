@@ -1,6 +1,8 @@
 # Project workflow
 
-This file provides the basic roadmap for navigating, creating, and managing all project content. [README](docs/README.md) provides an orientation to the overall internal project documentation. The following sections describe the project standards and workflow.
+This file provides a basic roadmap for creating and managing all project content. This information is specific to the Vintage Reel project but can be generalized to apply to other similar projects. The following sections describe the project standards and workflow.
+
+References to standards for naming files and directories are embedded throughout the workflow but the main reference page is [Naming and slugs](naming-slugs.md).
 
 The workflow for this project is organized logically into the type of content being authored. This is driven partly by the actual physical processes involved in creating the content - e.g., the processes of photographing the reels, taking them apart, and creating videos - as well as the form that content takes (text, photos, videos, audio) and the delivery platform (GitHub, YouTube, Substack). So, the workflow logically divides into the following phases for any one reel across the entire project workflow:
 
