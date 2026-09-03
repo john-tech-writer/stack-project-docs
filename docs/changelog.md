@@ -10,7 +10,7 @@ Issues / items noted after the initial list was created will be added to [Additi
 
 ## Priority items (fix first)
 
-- [ ] **P1 — One current map of repos and locations.** `orientation.md` still describes this project living inside the main guide repo, unpublished; `directory-layout.md` says it moved out to this published sibling repo as of 8.6.26. Everything about where skeletons/images/backups live inherits this contradiction.
+- [X] **P1 — One current map of repos and locations.** `orientation.md` still describes this project living inside the main guide repo, unpublished; `directory-layout.md` says it moved out to this published sibling repo as of 8.6.26. Everything about where skeletons/images/backups live inherits this contradiction.
 - [ ] **P2 — Define the release gate.** No single authoritative order for draft → commit/push → verify the Pages build → publish YouTube → update embeds/links → publish the Substack notification. The two repo skeletons even sequence the overview video differently than the hub does.
 - [ ] **P3 — Close the photo-to-published-image handoff.** Capture guidance is strong; selecting frames, editing derivatives, final filenames, and Markdown placement are not documented. Also a real path conflict: `docs/img/[maker]/[model]/…` vs. `docs/img/[slug]/…`.
 - [ ] **P4 — Substack system of record.** Local vs. Substack draft/skeleton master, and the trigger for syncing them, is undefined — a recipe for silent divergence.
@@ -91,6 +91,8 @@ Keep these — don't refactor away just for the sake of tidying:
 - **2026-08-07** — Project docs split into their own published site (`stack-project-docs`), GitHub Pages live. Editorial review completed and converted into this tracked changelog.
 
 - **8.7.26** - Fixed item N-2, the repo skeletons have been removed from this repo for now, they may be added back if needed as examples. also removed from the vintage-reel-service-guides project folder / repo.
+
+- **9.3.26** - Fixed **P1 — One current map of repos and locations.** `orientation.md`  renamed to `index.md`, titled "About..." and is now the home page for this repo, also revised to reflect standards in writing-readme-about-pages.md, also revised / corrected`directory-layout.md`
 
 ---
 
