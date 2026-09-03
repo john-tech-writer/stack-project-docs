@@ -19,9 +19,12 @@ This diagram shows the stack-project-docs GitHub repository structure. All proje
     - project-workflow.md
     - README.md                      # Orientation to this doc set
     - screenshot-code-block-usage.md
+    - sharex-notes.md
     - skeletons-templates-workflow.md
     - substack-standards-series.md
+    - vintage-rod-workflow.md           # related to project-workflow.md with specifics on rod aquisition and documentation
     - volume-planning.md
+    - writing-readme-about-pages.md
     - img/
       - screencasts/
       - screenshots/
