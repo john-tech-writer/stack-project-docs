@@ -38,13 +38,13 @@ A practical “one in, one story” test
 
 Before buying, see whether it clears all four questions:
 
-    Is it unusually complete and clean? Original decals, wraps, grip, hardware, and bag matter more than mere age.
+  - Is it unusually complete and clean? Original decals, wraps, grip, hardware, and bag matter more than mere age.
 
-    Does it represent something specific? A construction development, a manufacturer’s signature series, or a distinctive configuration.
+  - Does it represent something specific? A construction development, a manufacturer’s signature series, or a distinctive configuration.
 
-    Can it be paired credibly? With one of your reels, a reel type, or a historically coherent fishing task.
+  - Can it be paired credibly? With one of your reels, a reel type, or a historically coherent fishing task.
 
-    Will it make a strong page? Full-length beauty image, readable markings, repair/service observations, and an interesting story.
+  - Will it make a strong page? Full-length beauty image, readable markings, repair/service observations, and an interesting story.
 
 If it cannot produce a worthwhile page or pairing, it is probably an easy pass.
 
