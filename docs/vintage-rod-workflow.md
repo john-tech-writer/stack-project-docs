@@ -34,8 +34,6 @@ That keeps the rod collection complementary to the reel archive rather than beco
 | Garcia / Mitchell-era rods | Natural companions for vintage spinning reels | Marked models with original matching sleeve/bag and period-correct cosmetics |
 | Fenwick | A later but highly collectible fiberglass benchmark | Early yellow-glass or distinctive pre-graphite examples, especially with original markings |
 
-Test.
-
 A practical “one in, one story” test
 
 Before buying, see whether it clears all four questions:
