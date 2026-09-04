@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://john-tech-writer.github.io/stack-project-docs/backup-workflow/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Backup workflow - Stack Project Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Backup workflow";
+        var mkdocs_page_input_path = "backup-workflow.md";
+        var mkdocs_page_url = "/stack-project-docs/backup-workflow/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Stack Project Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Standards - Structure - Lists</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../naming-slugs/">Naming and slugs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../directory-layout/">Directory layout</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skeletons-templates-workflow/">Skeletons and templates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../substack-standards-series/">Substack standards and series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../image-lists/">Image lists</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../screenshot-code-block-usage/">Screenshot and code block usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../writing-readme-about-pages/">Writing README and About pages</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Workflows</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../project-workflow/">Project workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../image-workflow/">Image workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-video-workflow/">Video workflow</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Backup workflow</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-dropbox-desktop-sync-works">How Dropbox desktop sync works</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sync-vs-differential-backup">Sync vs differential backup</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#for-the-reel-project-use-case">For the reel project use case</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dropbox-project-layout">Dropbox project layout</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#second-machine-laptop-checklist">Second machine (laptop) checklist</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../vintage-rod-workflow/">Vintage rod workflow</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Planning - Future - History</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../volume-planning/">Volume planning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../parking-lot/">Parking lot</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../changelog/">Changelog</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Stack Project Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Workflows</li>
+      <li class="breadcrumb-item active">Backup workflow</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="backup-workflow">Backup workflow</h1>
+<p>For projects that are strictly GiHub-based, such as the Stack project, there is no reason to do backups anywhere else, e.g., Dropbox. For projects that include working and media folders, like the Vintage Reels project, both GitHub and Dropbox should be used.</p>
+<p>For day-to-day project backup, Dropbox should primarily cover the workspace and media folders, while GitHub remains the authoritative remote for Git-tracked repositories:</p>
+<ul>
+<li>GitHub for the published docs / site source and its commit history.</li>
+<li>Dropbox for project-development material, raw/final media, Shotcut/Reaper/Affinity files, and other non-repo assets.</li>
+</ul>
+<p>Important exception</p>
+<p>A Dropbox copy of a repo is not wrong; it is just redundant unless you want an independent disaster-recovery snapshot. GitHub’s own documentation describes a git clone --mirror as a way to back up a repository with its revision history, which is a better repo-specific backup than copying an active working clone with its .git directory into a syncing service.</p>
+<h2 id="how-dropbox-desktop-sync-works">How Dropbox desktop sync works</h2>
+<p>When you install the Dropbox desktop app, it creates a local “Dropbox” folder and keeps that folder and your online Dropbox account in two‑way sync in the background.</p>
+<p>For the folder you selected (your vintage reel project directory):</p>
+<ul>
+<li>
+<p>Any new local files you add into that synced folder get uploaded to Dropbox.</p>
+</li>
+<li>
+<p>Any changes to existing local files (edits, renames) get uploaded and create new versions you can recover from history.</p>
+</li>
+<li>
+<p>Any local deletions of files in that synced folder are mirrored as deletions in your Dropbox account (with recovery possible for a while).</p>
+</li>
+</ul>
+<p>Likewise, if something changes first in the Dropbox cloud copy (for example, you edit a file on another machine), those changes are pulled down and applied to the local copy on this machine.</p>
+<p>That’s classic two‑way synchronization, not a “backup job that runs on a schedule.”</p>
+<h2 id="sync-vs-differential-backup">Sync vs differential backup</h2>
+<p>What you described—“just uploads / pushes any changes… additions, deletions, and changes”—is conceptually similar to a differential or incremental backup in that only changes are transferred, not the entire dataset every time.</p>
+<p>However:</p>
+<ul>
+<li>
+<p>Sync: Keeps two locations (local Dropbox folder and cloud) matching each other, in near real time, in both directions.</p>
+</li>
+<li>
+<p>Differential backup: Typically one‑way; it records all changes since the last full backup when a backup job runs, and usually does not mirror deletions the same way.</p>
+</li>
+</ul>
+<p>Your Dropbox desktop app is doing real‑time sync, and under the hood it transfers only changed data blocks, so it behaves “like a differential” in terms of efficiency—but the logic is sync, not a traditional backup system.</p>
+<h2 id="for-the-reel-project-use-case">For the reel project use case</h2>
+<p>Given your workflow:</p>
+<ul>
+<li>
+<p>Treat the Dropbox‑synced project folder as “live working storage that happens to be mirrored to the cloud.”</p>
+</li>
+<li>
+<p>You get version history and file recovery, but if you delete or corrupt something locally, that change will eventually sync to Dropbox too (though you can roll back).</p>
+</li>
+</ul>
+<p>If you ever want a true one‑way backup separate from the live sync (e.g., periodic snapshots of the whole reel project), you’d still want another backup strategy—like rsync/Borg to an external drive or Dropbox Backup/another service pointed at a non‑Dropbox folder.</p>
+<p>So: yes, you understood the behavior correctly for sync, and it sounds like your setup is working as intended. The only caveat is just to remember it’s two‑way sync, not a traditional differential backup job.</p>
+<h2 id="dropbox-project-layout">Dropbox project layout</h2>
+<p>Vintage Reel Service Guides Project/</p>
+<ul>
+<li>
+<p>Pictures/vintage reel service guides/...</p>
+</li>
+<li>
+<p>Video/vintage reel service guides/...</p>
+</li>
+</ul>
+<p>X  - vintage-reel-service-guides/ (repo)</p>
+<ul>
+<li>vintage-reel-service-guides-workspace/ (project docs &amp; reference)</li>
+</ul>
+<figure>
+<p><img alt="Dropbox web view showing the vintage-reel-service-guides backup folders, with root expanded to reveal the workspace, repo mirror, Pictures, and Video folders" src="../img/screenshots/dropbox-folders.png" /></p>
+<figcaption class="cap-long">Dropbox web view confirming the backup folders on the remote <code>vintage-reel-service-guides</code> repo mirror backup</figcaption>
+</figure>
+<h2 id="second-machine-laptop-checklist">Second machine (laptop) checklist</h2>
+<p>Before working on the laptop:</p>
+<ol>
+<li>
+<p>On the desktop, make sure Dropbox has finished syncing (no pending changes).</p>
+</li>
+<li>
+<p>On the desktop, commit and push any repo changes to GitHub.</p>
+</li>
+<li>
+<p>On the laptop, wait for Dropbox to finish syncing the Vintage Reel Service Guides Project folder.</p>
+</li>
+<li>
+<p>In the repo on the laptop, run git pull so it matches the desktop.</p>
+</li>
+</ol>
+<p>While working on the laptop:</p>
+<ol>
+<li>Edit files only in the local project folders under the Vintage Reel Service Guides Project wrapper.</li>
+</ol>
+<p>When finished on the laptop:</p>
+<ol>
+<li>
+<p>Commit and push repo changes from the laptop to GitHub.</p>
+</li>
+<li>
+<p>Leave the laptop on until Dropbox finishes syncing the Vintage Reel Service Guides Project folder.</p>
+</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../audio-video-workflow/" class="btn btn-neutral float-left" title="Video workflow"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../vintage-rod-workflow/" class="btn btn-neutral float-right" title="Vintage rod workflow">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../audio-video-workflow/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../vintage-rod-workflow/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

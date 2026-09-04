@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://john-tech-writer.github.io/stack-project-docs/changelog/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Changelog - Stack Project Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Changelog";
+        var mkdocs_page_input_path = "changelog.md";
+        var mkdocs_page_url = "/stack-project-docs/changelog/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Stack Project Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Standards - Structure - Lists</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../naming-slugs/">Naming and slugs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../directory-layout/">Directory layout</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../skeletons-templates-workflow/">Skeletons and templates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../substack-standards-series/">Substack standards and series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../image-lists/">Image lists</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../screenshot-code-block-usage/">Screenshot and code block usage</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../writing-readme-about-pages/">Writing README and About pages</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Workflows</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../project-workflow/">Project workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../image-workflow/">Image workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../audio-video-workflow/">Video workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../backup-workflow/">Backup workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../vintage-rod-workflow/">Vintage rod workflow</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Planning - Future - History</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../volume-planning/">Volume planning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../parking-lot/">Parking lot</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Changelog</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#priority-items-fix-first">Priority items (fix first)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#redundancies-to-consolidate">Redundancies to consolidate</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#logic-workflow-gaps">Logic / workflow gaps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#terminology-to-standardize">Terminology to standardize</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#other-weaknesses">Other weaknesses</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#whats-already-working-well">What's already working well</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#additional-items-found-during-implementation">Additional items (found during implementation)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#progress-log">Progress log</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#full-rationale">Full rationale</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1-redundancies">1. Redundancies</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#a-the-project-docs-purpose-and-the-role-of-the-hub-are-stated-three-times-with-different-current-state-implications">A. The project-docs purpose and the role of the hub are stated three times, with different current-state implications</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#b-directory-paths-and-filename-patterns-are-repeated-across-four-documents-instead-of-being-assembled-from-two-authorities">B. Directory paths and filename patterns are repeated across four documents instead of being assembled from two authorities</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#c-slug-rules-are-duplicated-by-image-naming-rules-but-the-scopes-are-not-cleanly-separated">C. Slug rules are duplicated by image naming rules, but the scopes are not cleanly separated</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#d-video-captureexport-settings-are-maintained-in-both-the-photo-and-the-audiovideo-workflows">D. Video capture/export settings are maintained in both the photo and the audio/video workflows</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#e-file-type-inventories-occur-in-both-the-directory-reference-and-the-operating-procedure">E. File-type inventories occur in both the directory reference and the operating procedure</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#f-substack-instructions-have-three-partially-overlapping-homes">F. Substack instructions have three partially overlapping homes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#g-backup-instructions-are-stated-as-both-a-directive-to-authors-and-an-incomplete-workflow">G. Backup instructions are stated as both a directive to authors and an incomplete workflow</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-logic-workflow-gaps">2. Logic / workflow gaps</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#a-the-projects-actual-location-and-publicprivate-status-are-contradictory">A. The project's actual location and public/private status are contradictory</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#b-several-operational-paths-disagree-one-of-them-will-necessarily-be-wrong">B. Several operational paths disagree; one of them will necessarily be wrong</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#c-the-workflow-has-no-explicit-release-gate-or-updating-loop-for-cross-platform-links">C. The workflow has no explicit release gate or updating loop for cross-platform links</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#d-the-basic-photo-workflow-omits-the-post-service-capture-and-curation-stage-it-promises">D. The basic-photo workflow omits the post-service capture and curation stage it promises</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#e-image-coverage-rules-conflict-at-the-level-of-the-service-guide-promise">E. Image coverage rules conflict at the level of the service-guide promise</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#f-substacks-bidirectional-localonline-process-has-no-source-of-truth-or-sync-trigger">F. Substack's bidirectional local/online process has no source-of-truth or sync trigger</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#g-backup-and-cleanup-are-not-sequenced-safely-enough-for-the-assets-the-workflow-creates">G. Backup and cleanup are not sequenced safely enough for the assets the workflow creates</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#h-completion-language-in-volume-planning-is-not-tied-to-the-stated-publishing-model">H. Completion language in volume planning is not tied to the stated publishing model</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#i-reference-acquisition-has-no-documented-editorialrights-decision-record">I. Reference acquisition has no documented editorial/rights decision record</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-terminology-inconsistencies">3. Terminology inconsistencies</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-genuine-weaknesses">4. Genuine weaknesses</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#a-image-listsmd-stops-before-it-becomes-a-usable-cross-platform-planning-tool">A. image-lists.md stops before it becomes a usable cross-platform planning tool</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#b-several-central-photography-instructions-are-explicitly-unfinished-rather-than-safely-provisional">B. Several central photography instructions are explicitly unfinished rather than safely provisional</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#c-the-photo-processing-instruction-uses-global-automatic-changes-without-a-content-quality-checkpoint">C. The photo-processing instruction uses global automatic changes without a content-quality checkpoint</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#d-the-youtube-publication-instruction-is-too-dependent-on-an-unspecified-previous-upload">D. The YouTube publication instruction is too dependent on an unspecified previous upload</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#e-the-parking-lot-mixes-backlog-items-with-long-unqualified-advisory-prose">E. The parking lot mixes backlog items with long, unqualified advisory prose</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#f-the-backup-document-is-a-machine-switching-checklist-not-yet-a-complete-backup-workflow">F. The backup document is a machine-switching checklist, not yet a complete backup workflow</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#g-the-volume-plan-offers-a-compelling-slate-but-lacks-selection-and-closure-criteria">G. The volume plan offers a compelling slate but lacks selection and closure criteria</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-whats-working-well">5. What's working well</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Stack Project Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Planning - Future - History</li>
+      <li class="breadcrumb-item active">Changelog</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="changelog">Changelog</h1>
+<p><em>updated 8.7.26</em></p>
+<p>This docs project has a complete structural skeleton and real working content, but a full editorial review surfaced redundancies, workflow logic gaps, terminology drift, and a handful of genuine content weaknesses — mostly a natural side effect of heavy consolidation while writing. If you're browsing this repo: nothing below blocks it from being useful today, but the items are being worked through incrementally, in no fixed order, over the coming weeks and months.</p>
+<p><strong>How to read this:</strong> <code>[ ]</code> = open, not started yet. <code>[x]</code> = resolved — checked-off items will have dated note added to the <a href="#progress-log">Progress log</a> at the bottom stating what changed. Each checklist item has a short one-line summary here - the full reasoning and suggested repair for every item lives in the matching section further down the page, in the same order.</p>
+<p>Issues / items noted after the initial list was created will be added to <a href="#additional-items-found-during-implementation">Additional items</a> below with the next <code>N-#</code> number and date. New issues will not be mapped / added to the original lettered categories because those map 1:1 to the original review and are left alone so that change record stays intact.</p>
+<h2 id="priority-items-fix-first">Priority items (fix first)</h2>
+<ul>
+<li>[X] <strong>P1 — One current map of repos and locations.</strong> <code>orientation.md</code> still describes this project living inside the main guide repo, unpublished; <code>directory-layout.md</code> says it moved out to this published sibling repo as of 8.6.26. Everything about where skeletons/images/backups live inherits this contradiction.</li>
+<li>[ ] <strong>P2 — Define the release gate.</strong> No single authoritative order for draft → commit/push → verify the Pages build → publish YouTube → update embeds/links → publish the Substack notification. The two repo skeletons even sequence the overview video differently than the hub does.</li>
+<li>[ ] <strong>P3 — Close the photo-to-published-image handoff.</strong> Capture guidance is strong; selecting frames, editing derivatives, final filenames, and Markdown placement are not documented. Also a real path conflict: <code>docs/img/[maker]/[model]/…</code> vs. <code>docs/img/[slug]/…</code>.</li>
+<li>[ ] <strong>P4 — Substack system of record.</strong> Local vs. Substack draft/skeleton master, and the trigger for syncing them, is undefined — a recipe for silent divergence.</li>
+<li>[ ] <strong>P5 — Define completion states.</strong> "All docs and media completed," "published," and "notification scheduled" are used inconsistently at both the reel and volume level.</li>
+</ul>
+<h2 id="redundancies-to-consolidate">Redundancies to consolidate</h2>
+<ul>
+<li>[ ] <strong>R-A</strong> — Project-docs purpose/role stated three times (<code>index.md</code>, <code>orientation.md</code>, <code>directory-layout.md</code>) with conflicting current-state info.</li>
+<li>[ ] <strong>R-B</strong> — Directory paths and filename patterns repeated across four docs instead of living in two authorities.</li>
+<li>[ ] <strong>R-C</strong> — Slug rules duplicated by image-naming rules, with scopes not cleanly separated.</li>
+<li>[ ] <strong>R-D</strong> — Video capture/export settings maintained in both the photo and the audio/video workflows.</li>
+<li>[ ] <strong>R-E</strong> — File-type inventories repeated in the directory reference and the operating procedure.</li>
+<li>[ ] <strong>R-F</strong> — Substack instructions have three partially overlapping homes.</li>
+<li>[ ] <strong>R-G</strong> — Backup instructions stated as both a directive to authors and an incomplete workflow.</li>
+</ul>
+<h2 id="logic-workflow-gaps">Logic / workflow gaps</h2>
+<ul>
+<li>[ ] <strong>G-A</strong> — Project location and public/private status are contradictory.</li>
+<li>[ ] <strong>G-B</strong> — Several operational paths disagree (acquisition-log location, image-folder role/path, <code>repo-skeletons</code> vs <code>repo skeletons</code>).</li>
+<li>[ ] <strong>G-C</strong> — No explicit release gate or cross-platform link-update loop.</li>
+<li>[ ] <strong>G-D</strong> — Basic-photo workflow omits the post-service capture/curation stage it promises.</li>
+<li>[ ] <strong>G-E</strong> — Image coverage rules conflict ("step by step" vs. "just highlights").</li>
+<li>[ ] <strong>G-F</strong> — Substack's bidirectional local/online process has no source-of-truth or sync trigger.</li>
+<li>[ ] <strong>G-G</strong> — Backup and cleanup aren't sequenced safely for the assets the workflow creates.</li>
+<li>[ ] <strong>G-H</strong> — Completion language isn't tied to the stated publishing model.</li>
+<li>[ ] <strong>G-I</strong> — Reference acquisition has no documented editorial/rights decision record.</li>
+</ul>
+<h2 id="terminology-to-standardize">Terminology to standardize</h2>
+<ul>
+<li>[ ] <strong>T-1</strong> — "The docs repository and its status" (internal vs. published sibling site).</li>
+<li>[ ] <strong>T-2</strong> — "Project folder" (ambiguous across three repos/workspace).</li>
+<li>[ ] <strong>T-3</strong> — The workflow hub's name (<code>index.md</code> vs. a phantom <code>project-workflow.md</code> referenced in prose).</li>
+<li>[ ] <strong>T-4</strong> — Service-guide output filename (three different patterns across three docs).</li>
+<li>[ ] <strong>T-5</strong> — Image source/destination locations and terms.</li>
+<li>[ ] <strong>T-6</strong> — Substack "Service guide" series name (singular vs. plural vs. "notification").</li>
+<li>[ ] <strong>T-7</strong> — Welcome series / tag form casing.</li>
+<li>[ ] <strong>T-8</strong> — Production-notes series vs. "At the bench."</li>
+<li>[ ] <strong>T-9</strong> — "Reel stories" capitalization.</li>
+<li>[ ] <strong>T-10</strong> — Substack skeleton directory name (two different paths given).</li>
+<li>[ ] <strong>T-11</strong> — Skeleton governance terms ("frozen reference" vs. "edit structure locally").</li>
+<li>[ ] <strong>T-12</strong> — Completion terms (service completed / published / volume finished) lack a shared definition.</li>
+</ul>
+<h2 id="other-weaknesses">Other weaknesses</h2>
+<ul>
+<li>[ ] <strong>W-A</strong> — <code>image-lists.md</code> has empty sections (video stills, overviews, service guides, Substack posts).</li>
+<li>[ ] <strong>W-B</strong> — Bench geometry/lighting recipe left as open reminders ("NEO" / "need to doc").</li>
+<li>[ ] <strong>W-C</strong> — Batch photo processing has no content-quality checkpoint (risk to restoration evidence — auto contrast/levels can alter finish/corrosion appearance).</li>
+<li>[ ] <strong>W-D</strong> — YouTube metadata instructions depend on an unspecified "last upload."</li>
+<li>[ ] <strong>W-E</strong> — Parking Lot mixes true backlog items with long, unratified advisory prose.</li>
+<li>[ ] <strong>W-F</strong> — Backup doc is a machine-switching checklist, not yet a full backup policy.</li>
+<li>[ ] <strong>W-G</strong> — Volume plan lacks explicit selection and closure criteria.</li>
+</ul>
+<h2 id="whats-already-working-well">What's already working well</h2>
+<p>Keep these — don't refactor away just for the sake of tidying:</p>
+<ul>
+<li>The corpus has a real operating spine: <code>index.md</code>'s acquisition → writing → publishing sequence reduces decision fatigue by design.</li>
+<li>Media is treated as evidence, not decoration — <code>image-workflow.md</code>'s per-step image requirement and hero/version naming discipline.</li>
+<li>The template/skeleton philosophy is mature — skeletons are "codified wisdom" from finished work, not empty forms.</li>
+<li>Substack standards cleanly separate reader-facing series title from behind-the-scenes tag.</li>
+<li>The Parking Lot preserves experimentation (color, Pandoc, remaster ideas) without polluting the main workflow path.</li>
+<li>Tool/asset specificity is strong throughout — camera settings, lens starting points, Reaper/Shotcut artifacts, two-machine sync steps are concrete enough to actually repeat.</li>
+</ul>
+<h2 id="additional-items-found-during-implementation">Additional items (found during implementation)</h2>
+<p><em>Not part of the original 2026-08-06 review — logged here as you notice things while actually working through changes. Keep numbering sequentially (N-1, N-2, …); these don't need to map to the lettered categories above.</em></p>
+<ul>
+<li>
+<p>[ ] <strong>N-1 (8.6.26)</strong> — Stop duplicating reel/volume status info. Remove tracking/status content from <code>volume-planning.md</code> entirely and maintain it in exactly one place: the reel log in the workspace (not in this repo at all). <code>volume-planning.md</code> should hold only the generic strategy/principles for structuring a volume — this may already exist in one of the background docs; confirm and consolidate there rather than writing a new one. This generalizes beyond volume planning: for this repo, favor skeleton-like generic content throughout — specifics belong here only as illustrative examples, never as maintained state. Related to P5, G-H, and R-A above, but proposes removal/consolidation rather than adding more structure to <code>volume-planning.md</code>.</p>
+</li>
+<li>
+<p>[X] <strong>N-2 (8.6.26)</strong> — Repo skeletons have already been relocated out of <code>project-docs/</code> and into the workspace, alongside all the other skeletons — this fits better since authoring starts there locally in Notepad++ anyway. This makes the <code>repo-skeletons/</code> path conflict in G-B / T-4 / R-B moot as originally framed: decide whether <code>overview-skeleton.md</code> and <code>service-guide-skeleton.md</code> still belong in this repo/site at all (as illustrative examples, clearly marked as a snapshot) or should be removed here entirely with a pointer back to the workspace as the source of truth.</p>
+</li>
+<li>
+<p>[ ] <strong>N-3 (8.7.26)</strong> - Need to change all references to the repo skeletons to correctly identify their location.</p>
+</li>
+</ul>
+<h2 id="progress-log">Progress log</h2>
+<p><em>Add a dated entry here each time you close out one or more items above — what changed, and in which file(s).</em></p>
+<ul>
+<li>
+<p><strong>2026-08-07</strong> — Project docs split into their own published site (<code>stack-project-docs</code>), GitHub Pages live. Editorial review completed and converted into this tracked changelog.</p>
+</li>
+<li>
+<p><strong>8.7.26</strong> - Fixed item N-2, the repo skeletons have been removed from this repo for now, they may be added back if needed as examples. also removed from the vintage-reel-service-guides project folder / repo.</p>
+</li>
+<li>
+<p><strong>9.3.26</strong> - Fixed <strong>P1 — One current map of repos and locations.</strong> <code>orientation.md</code>  renamed to <code>index.md</code>, titled "About..." and is now the home page for this repo, also revised to reflect standards in writing-readme-about-pages.md, also revised / corrected<code>directory-layout.md</code></p>
+</li>
+</ul>
+<hr />
+<h2 id="full-rationale">Full rationale</h2>
+<p>The sections below mirror the checklist above, in the same order, with the complete reasoning and suggested repair behind each item.</p>
+<h2 id="1-redundancies">1. Redundancies</h2>
+<h3 id="a-the-project-docs-purpose-and-the-role-of-the-hub-are-stated-three-times-with-different-current-state-implications">A. The project-docs purpose and the role of the hub are stated three times, with different current-state implications</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>index.md</code>, "Workflow philosophy," calls itself "the <strong>one place</strong> to always return." <code>orientation.md</code>, "Start here," calls it "the main process document," "the spine," and the roadmap from selection through repository updates. <code>directory-layout.md</code>, "1a. Project docs," again explains that its <code>index.md</code> is the project-workflow home page.</li>
+<li><strong>Why it matters:</strong> The repetition is not merely introductory reinforcement because it carries contradictory placement/publication information (see Logic gaps A). It also creates three places to revise whenever the internal site changes.</li>
+<li><strong>Recommendation:</strong> Make <strong><code>orientation.md</code> canonical for purpose, audience, repository/site status, and how to use this documentation set</strong>. Make <strong><code>index.md</code> canonical for the active end-to-end production sequence</strong>. Let <code>directory-layout.md</code> contain only the directory tree and a one-sentence pointer to each of those documents. Remove the repeated institutional description from the other two.</li>
+</ul>
+<h3 id="b-directory-paths-and-filename-patterns-are-repeated-across-four-documents-instead-of-being-assembled-from-two-authorities">B. Directory paths and filename patterns are repeated across four documents instead of being assembled from two authorities</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>directory-layout.md</code> specifies <code>docs/[maker]/[slug]-overview.md</code>, <code>docs/[maker]/[slug]-service-guide.md</code>, and <code>docs/img/[maker]/[model]/…</code>. <code>naming-slugs.md</code> repeats paths but calls the service file <code>[slug]-guide.md</code>. <code>index.md</code> repeats the overview and service-guide locations. <code>skeletons-templates-workflow.md</code>, "Repo skeletons," gives a third form: <code>docs/[maker]-[slug]-[overview / service-guide].md</code>.</li>
+<li><strong>Recommendation:</strong> Let <strong><code>directory-layout.md</code> own directory topology</strong> and <strong><code>naming-slugs.md</code> own basename grammar</strong>. In <code>index.md</code> and <code>skeletons-templates-workflow.md</code>, use a short link to both rather than restating literal paths. Keep only an example that is generated from the two authorities. This is especially important for the folder/name boundary: the current third form makes <code>[maker]</code> part of the basename rather than the directory.</li>
+</ul>
+<h3 id="c-slug-rules-are-duplicated-by-image-naming-rules-but-the-scopes-are-not-cleanly-separated">C. Slug rules are duplicated by image naming rules, but the scopes are not cleanly separated</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>naming-slugs.md</code>, "Slugs," establishes <code>[slug]</code> and general repository naming rules. <code>image-workflow.md</code>, "File naming standards / slugs," repeats <code>[slug]-[description].jpg</code>, lowercase/hyphen conventions, and elaborates numbered suffixes, views, actions, states, and image purpose.</li>
+<li><strong>Recommendation:</strong> Keep <strong><code>naming-slugs.md</code> as the canonical slug definition and cross-media basename rule</strong>. Rename the image section to <strong>"Image descriptor vocabulary and sequence rules"</strong> and retain only its genuinely image-specific material (for example, <code>hero-</code>, <code>-ref</code>, <code>-v1</code>, and action-sequence numbering). The suggested <code>photo-standards.md</code> should either be created at a stated location or replaced by this maintained vocabulary section; do not introduce a fourth naming authority.</li>
+</ul>
+<h3 id="d-video-captureexport-settings-are-maintained-in-both-the-photo-and-the-audiovideo-workflows">D. Video capture/export settings are maintained in both the photo and the audio/video workflows</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>image-workflow.md</code>, "Video workflow" and "Video export settings," specifies Guvcview, C920 settings, 1920×1080, 30 fps, H.264, MKV, Shotcut, and the 8 Mb/s export target. <code>audio-video-workflow.md</code> also names Guvcview, the C920, Shotcut, the YouTube preset, and the production sequence.</li>
+<li><strong>Recommendation:</strong> Make <strong><code>audio-video-workflow.md</code> the sole owner of video capture, audio, editing, export, upload, and cleanup procedure</strong>. In <code>image-workflow.md</code>, retain a one-line cross-reference only if the still-photo workflow needs to acknowledge that the same bench setup supports video. This reduces the chance of two conflicting presets after a change.</li>
+</ul>
+<h3 id="e-file-type-inventories-occur-in-both-the-directory-reference-and-the-operating-procedure">E. File-type inventories occur in both the directory reference and the operating procedure</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>directory-layout.md</code>, "Video," inventories MLT, TXT, MP4, WAV, RPP, and MKV both under the tree and again in "File types." <code>audio-video-workflow.md</code>, steps 2–7 and step 10, repeats the same types and their purposes.</li>
+<li><strong>Recommendation:</strong> Keep <strong>the directory layout's inventory concise and structural</strong> (which folder contains which asset class). Keep <strong>the audio/video workflow's names, creation order, cleanup, and retention decision</strong>. Eliminate the duplicate explanatory list in the directory reference or replace it with a link.</li>
+</ul>
+<h3 id="f-substack-instructions-have-three-partially-overlapping-homes">F. Substack instructions have three partially overlapping homes</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>index.md</code> tells the reader when to write Welcome and Service guide posts; <code>substack-standards-series.md</code> defines series, tags, and the Welcome-post wiring; <code>skeletons-templates-workflow.md</code> explains copying, drafting, local copies, final names, and skeleton synchronization.</li>
+<li><strong>Recommendation:</strong> Make <strong><code>substack-standards-series.md</code> canonical for editorial policy</strong>: series definitions, tags, title pattern, publication trigger, required Connections links, and post-publication cross-linking. Make <strong><code>skeletons-templates-workflow.md</code> canonical for artifact lifecycle</strong>: where the template lives, how to clone it, and how to synchronize it. In the hub, retain only timing and links to those two authorities.</li>
+</ul>
+<h3 id="g-backup-instructions-are-stated-as-both-a-directive-to-authors-and-an-incomplete-workflow">G. Backup instructions are stated as both a directive to authors and an incomplete workflow</h3>
+<ul>
+<li><strong>Overlap:</strong> <code>backup-workflow.md</code> begins, "In each workflow doc pointing to this one add this pointer," then supplies the exact summary. <code>index.md</code> separately inserts that summary after each photo round. The audio/video workflow does not insert it despite creating the largest, most deletion-prone assets.</li>
+<li><strong>Recommendation:</strong> Keep <strong><code>backup-workflow.md</code> as the sole canonical policy</strong> and add a small, consistent "Backup checkpoint" callout at every defined handoff (capture ingest, repo release, completed video project, and before destructive cleanup). The hub should link to the named checkpoint rather than restating the sentence ad hoc.</li>
+</ul>
+<h2 id="2-logic-workflow-gaps">2. Logic / workflow gaps</h2>
+<h3 id="a-the-projects-actual-location-and-publicprivate-status-are-contradictory">A. The project's actual location and public/private status are contradictory</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>orientation.md</code>, opening, says the documents "reside in the project folder in <code>project-docs/</code> and get pushed to the repo but are not included in site navigation." <code>directory-layout.md</code>, "1a. Project docs," says that on 8.6.26 they "moved out of" the main repo into their own sibling repo/site and are published through GitHub Pages. <code>backup-workflow.md</code> still lists only the main repo and a workspace under the Dropbox wrapper, not the separate project-docs repo.</li>
+<li><strong>Gap:</strong> A reader cannot reliably tell which repo they are editing, what gets pushed where, or whether the backup set includes the now-separate docs repository.</li>
+<li><strong>Repair:</strong> Add a compact "Current topology (as of …)" block to <code>orientation.md</code>: main public guide repo, published workflow-docs repo, workspace, Pictures, Video, and Dropbox coverage. Use stable names for all six. Update the backup layout and skeleton-location instructions from that block.</li>
+</ul>
+<h3 id="b-several-operational-paths-disagree-one-of-them-will-necessarily-be-wrong">B. Several operational paths disagree; one of them will necessarily be wrong</h3>
+<ul>
+<li><strong>Evidence:</strong></li>
+<li><code>index.md</code> sends the acquisition log to <code>reference docs and books/reel collection.docx</code>; <code>directory-layout.md</code> places it in <code>general referece docs/reel collection.docx</code>.</li>
+<li><code>index.md</code> calls <code>/maker and reel docs/[maker]/…</code> a <strong>Pictures media folder</strong>, while <code>directory-layout.md</code> presents <code>maker and reel docs/</code> under <strong>Workspace</strong> and places actual photos under <code>Pictures/vintage reel service guides/[maker]/[model]/…</code>.</li>
+<li><code>index.md</code> and the skeleton image examples use <code>docs/img/[maker]/[model]/…</code>; <code>image-workflow.md</code> sends the same repo overview images to <code>/docs/img/[slug]/…</code>.</li>
+<li><code>skeletons-templates-workflow.md</code> puts repo skeletons in <code>project-docs/repo skeletons/</code>; <code>directory-layout.md</code> names the actual directory <code>repo-skeletons/</code>.</li>
+<li><strong>Gap:</strong> This is more than nomenclature: a new reel can be correctly processed yet stranded in an unreferenced directory or built with broken image links.</li>
+<li><strong>Repair:</strong> Establish a single path table with <strong>asset, source of truth, working location, published location, and filename pattern</strong>. Reference that table from every procedural document. Do not use descriptive phrases such as "project folder" where two repository roots exist.</li>
+</ul>
+<h3 id="c-the-workflow-has-no-explicit-release-gate-or-updating-loop-for-cross-platform-links">C. The workflow has no explicit release gate or updating loop for cross-platform links</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>index.md</code> places the overview video directly after writing the overview and puts service videos after writing the service guide. Both repo skeletons instead say overview and service videos are made after "the overview and guide are written and pushed to the repo," then added as an "update." The Service guide notification is for a "new completed stack," but no step says when to update the repo page with live YouTube links, confirm the GitHub Pages build, or test the Substack Connections links.</li>
+<li><strong>Gap:</strong> The outward-facing objects depend on one another, but their publication states and link updates are not modeled. A service page may point to a future video; a notification may be sent before its target pages are live; or the video may be live without a durable repo/Substack connection.</li>
+<li><strong>Repair:</strong> Add a small release checklist to <code>index.md</code>, with explicit gates and owners (even if the owner is always the author): <strong>repo source committed/pushed → hosted page checked → YouTube uploaded/published → repo embeds/links updated → Substack notification published → all outbound links sampled</strong>. State the permitted exception for a Welcome post, which intentionally precedes the completed stack.</li>
+</ul>
+<h3 id="d-the-basic-photo-workflow-omits-the-post-service-capture-and-curation-stage-it-promises">D. The basic-photo workflow omits the post-service capture and curation stage it promises</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>image-workflow.md</code>, "Basic photos," says intact photos are taken "before the reel is serviced and also after." <code>index.md</code> schedules an initial intact-photo session, then only a disassembly/reassembly session. Its later steps convert and use "initial" images but never schedule the second intact set, comparison, or final hero choice.</li>
+<li><strong>Gap:</strong> There is no decision point for whether the pre-service, in-progress, or post-service photo becomes the overview hero; no process for refreshing an overview after restoration; and no handoff from a candidate image to its Markdown placement.</li>
+<li><strong>Repair:</strong> Split this into named stages: <strong>intake/pre-service reference</strong>, <strong>procedure capture</strong>, <strong>post-service hero/functional capture</strong>, and <strong>selection/publishing</strong>. For each, say the minimum output, where it lands, and who decides whether an image is reference-only, guide-step, hero, video still, or Substack image.</li>
+</ul>
+<h3 id="e-image-coverage-rules-conflict-at-the-level-of-the-service-guide-promise">E. Image coverage rules conflict at the level of the service-guide promise</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>image-workflow.md</code>, "Disassembly and reassembly photos," requires "At least one image per user action/step," with two or three for intricate moves. <code>image-lists.md</code>, "Service guides," calls reassembly "step by step" but says the Nobby reassembly uses "5 images - just highlights."</li>
+<li><strong>Gap:</strong> "Step by step" and "just highlights" are different reader commitments. The writer cannot know whether missing images are an acceptable editorial compression or a coverage failure.</li>
+<li><strong>Repair:</strong> Define a default and exception rule: for example, every irreversible, orientation-sensitive, or failure-prone action gets a frame; reversible repetitions may be summarized; a short highlight set may be used only when the guide explicitly points to the full video. Put the rule in <code>image-workflow.md</code> and let <code>image-lists.md</code> link to it.</li>
+</ul>
+<h3 id="f-substacks-bidirectional-localonline-process-has-no-source-of-truth-or-sync-trigger">F. Substack's bidirectional local/online process has no source-of-truth or sync trigger</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>skeletons-templates-workflow.md</code> says most editing can occur in Substack, allows "back and forth" with a local copy, says local finals are "canonical text," and describes syncing only "from time to time." It then says to lock the local skeleton as "frozen reference" while also editing structure locally.</li>
+<li><strong>Gap:</strong> This permits silent divergence among a local draft, a Substack draft, a local final, a local skeleton, and a Substack skeleton — especially after a scheduled post is edited.</li>
+<li><strong>Repair:</strong> Define a two-row policy: (1) <strong>post text:</strong> Substack draft is working master until publication, then export to <code>-final</code> and treat that export as the canonical archival text; (2) <strong>structure:</strong> local skeleton is the structural master, versioned with a date, then copied to the Substack skeleton immediately after each structural change. Add one required sync at scheduling and one after post-publication edits.</li>
+</ul>
+<h3 id="g-backup-and-cleanup-are-not-sequenced-safely-enough-for-the-assets-the-workflow-creates">G. Backup and cleanup are not sequenced safely enough for the assets the workflow creates</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>audio-video-workflow.md</code> tells the reader to delete autosaves, backup folders, extra project-file types, and unused Reaper media after completion. <code>backup-workflow.md</code> describes a laptop transfer sequence but no universal end-of-session verification, no restore test, and no explicit checkpoint before this cleanup. The backup document's opening instruction says the pointer should appear at the end of <em>each</em> workflow, but it is absent from the audio/video workflow.</li>
+<li><strong>Gap:</strong> "Primary file is verified to open" is not equivalent to "the final media and source project exist in the intended backup set." The current ordering could turn a routine cleanup into loss of a recoverable project state.</li>
+<li><strong>Repair:</strong> Require a named pre-cleanup checkpoint: confirm Dropbox complete on the source machine, confirm expected final/source files are present in Dropbox, confirm the primary MLT/RPP opens from its intended final location, then delete defined disposable files. State what is retained for a completed video (source MKV, primary MLT/RPP, rendered WAV, final MP4, chapter TXT, thumbnails/metadata) and what is expressly disposable.</li>
+</ul>
+<h3 id="h-completion-language-in-volume-planning-is-not-tied-to-the-stated-publishing-model">H. Completion language in volume planning is not tied to the stated publishing model</h3>
+<ul>
+<li><strong>Evidence:</strong> The plan says every reel gets a repo overview/service guide, videos, and Welcome/notification posts. The Nobby is called "All docs and media completed" while its notification is still scheduled; the Penn 720 still has extra deliverables after its overview/guide/video completion; the Zebco entry records a Reel stories post without showing the core guide/media stack.</li>
+<li><strong>Gap:</strong> "Completed," "published," "service completed," "notification," and "volume finished" are not distinct project states. This makes it hard to prioritize, report a milestone accurately, or decide when a volume is done.</li>
+<li><strong>Repair:</strong> Add a legend and per-reel checklist to <code>volume-planning.md</code>. Suggested states: <em>acquired</em>, <em>research ready</em>, <em>bench/service complete</em>, <em>core repo published</em>, <em>core video published</em>, <em>Welcome published</em>, <em>completion notification published</em>, <em>extended modules pending</em>, <em>volume closed</em>.</li>
+</ul>
+<h3 id="i-reference-acquisition-has-no-documented-editorialrights-decision-record">I. Reference acquisition has no documented editorial/rights decision record</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>index.md</code> tells the reader to acquire all available documentation, save it in the workspace, add an entry to <code>docs/references.md</code>, and include a photo/document in the project if it is "not copyrighted and … available outside pay walls." Other sources are linked rather than included.</li>
+<li><strong>Gap:</strong> Availability outside a paywall is not a usable decision rule for republication, and the docs do not state the minimum metadata to record (source URL, creator/publisher, publication date, rights/permission basis, captured-by date, or use in which guide). This will make later citation, attribution, and reuse decisions inconsistent.</li>
+<li><strong>Repair:</strong> Add a compact reference-intake record and an explicit publication decision: <strong>link only / reproduce a self-created scan or photo / reproduce under stated permission or public-domain basis / do not use</strong>. Keep the detailed rights rationale with the source record; keep the public References-page entry concise.</li>
+</ul>
+<h2 id="3-terminology-inconsistencies">3. Terminology inconsistencies</h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Conflicting terms / locations</th>
+<th>Editorial fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>The docs repository and its status</strong></td>
+<td><code>orientation.md</code> calls these internal, pushed-but-not-navigated <code>project-docs/</code>; <code>directory-layout.md</code> says they are the published sibling <code>stack-project-docs</code> site.</td>
+<td>Use <strong>"workflow-docs repository"</strong> (or another chosen stable name) for this site and <strong>"guide repository"</strong> for <code>vintage-reel-service-guides</code>. Define both once in Orientation.</td>
+</tr>
+<tr>
+<td><strong>"Project folder"</strong></td>
+<td>It can mean the main guide repo (<code>directory-layout.md</code>, section 1), the docs repo (<code>orientation.md</code> / <code>skeletons-templates-workflow.md</code>), or the general Dropbox wrapper (<code>backup-workflow.md</code>).</td>
+<td>Retire the unqualified term in procedures. Use <strong>guide-repo root</strong>, <strong>workflow-docs-repo root</strong>, <strong>workspace</strong>, <strong>Pictures root</strong>, <strong>Video root</strong>, or <strong>Dropbox project root</strong>.</td>
+</tr>
+<tr>
+<td><strong>The workflow hub's name</strong></td>
+<td>The actual file is <code>index.md</code>; <code>index.md</code> itself says to open <code>project-workflow.md</code>; <code>directory-layout.md</code> says <code>index.md</code> "is <code>project-workflow.md</code>"; <code>orientation.md</code> alternates "project workflow" and "project-workflow."</td>
+<td>Choose a display name (<strong>Project workflow</strong>) and a reference convention (<strong>the Project workflow page, <code>index.md</code></strong>). Do not write a phantom filename in prose.</td>
+</tr>
+<tr>
+<td><strong>Service-guide output filename</strong></td>
+<td><code>directory-layout.md</code> and <code>index.md</code>: <code>[slug]-service-guide.md</code>; <code>naming-slugs.md</code>: <code>[slug]-guide.md</code>; <code>skeletons-templates-workflow.md</code>: <code>[maker]-[slug]-[overview / service-guide].md</code>.</td>
+<td>Standardize the full output example in the path table and make all three documents point to it.</td>
+</tr>
+<tr>
+<td><strong>Image source/destination locations</strong></td>
+<td><code>index.md</code> calls <code>maker and reel docs</code> a Pictures folder; <code>directory-layout.md</code> places it in Workspace; image output is <code>[maker]/[model]</code> in the hub/skeletons and <code>[slug]</code> in <code>image-workflow.md</code>.</td>
+<td>Use <strong>source/reference documents</strong>, <strong>raw capture</strong>, <strong>working derivatives</strong>, and <strong>repo-published images</strong> as distinct terms, each with one location.</td>
+</tr>
+<tr>
+<td><strong>Substack Service guide series</strong></td>
+<td><code>substack-standards-series.md</code> defines <strong>"Service guide"</strong> (singular); <code>index.md</code> says <strong>"Service guides"</strong> (plural); <code>volume-planning.md</code> calls it a <strong>"notification"</strong> post.</td>
+<td>Choose one visible series title, e.g. <strong>Service guide</strong>, and define <strong>completion notification</strong> as its function, not a competing name.</td>
+</tr>
+<tr>
+<td><strong>Welcome series / tag form</strong></td>
+<td>The canonical title is <strong>Welcome to the bench</strong> and the tag is <strong>New Arrival</strong> in <code>substack-standards-series.md</code>; elsewhere appear "welcome to the bench," <code>welcome-bench</code>, <code>new-arrival</code>, and "new arrival."</td>
+<td>Keep case-sensitive display names separate from machine names: <strong>series title</strong>, <strong>tag label</strong>, and <strong>draft filename stem</strong>. State all three in the standards doc.</td>
+</tr>
+<tr>
+<td><strong>Production-notes series</strong></td>
+<td><code>substack-standards-series.md</code>: <strong>Production notes</strong>. <code>parking-lot.md</code>: "from the bench / production notes," "At the bench / Production notes," and "At the Bench / Production Notes."</td>
+<td>Decide whether <strong>At the bench</strong> is a renamed display series, a recurring rubric inside Production notes, or an abandoned concept. The parking lot may retain alternatives, but mark the canonical choice.</td>
+</tr>
+<tr>
+<td><strong>Reel stories capitalization</strong></td>
+<td>The standards document uses <strong>Reel stories</strong>, consistent with its sentence-style cap standard; <code>volume-planning.md</code> and the Parking Lot use <strong>Reel Stories</strong>.</td>
+<td>Use the stated sentence-style series capitalization outside freeform note quotations.</td>
+</tr>
+<tr>
+<td><strong>Substack skeleton directory name</strong></td>
+<td><code>skeletons-templates-workflow.md</code> says <code>substack/skeletons-templates/</code> and later <code>substack/templates-skeletons/</code>.</td>
+<td>Select one directory name; use it in every location example and in the directory layout.</td>
+</tr>
+<tr>
+<td><strong>Skeleton governance</strong></td>
+<td>The document distinguishes skeletons from templates well, but calls a local skeleton both "frozen reference" and the place to "Only edit structure."</td>
+<td>Define <strong>reference copy</strong>, <strong>editable master</strong>, and <strong>online deployed copy</strong> as three separate roles — or use two copies with clear names.</td>
+</tr>
+<tr>
+<td><strong>Completion terms</strong></td>
+<td>"service completed," "completed stack," "all docs and media completed," "published," and "volume finished" are used without a common status definition.</td>
+<td>Add the status vocabulary to Volume planning and use it in the hub's notification trigger.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-genuine-weaknesses">4. Genuine weaknesses</h2>
+<h3 id="a-image-listsmd-stops-before-it-becomes-a-usable-cross-platform-planning-tool">A. <code>image-lists.md</code> stops before it becomes a usable cross-platform planning tool</h3>
+<ul>
+<li><strong>Evidence:</strong> The repo section has a useful checklist. The later headings, "Videos - stills for timeline," "Overviews," "Service guides," and "Substack posts," contain no entries.</li>
+<li><strong>Why this is weak:</strong> The hub says intact images will later serve video and Substack, but the only list that should turn that reuse into a deliberate plan is blank. This leaves the writer to decide afresh which stills, aspect ratios, crops, captions, and moments are needed for each destination.</li>
+<li><strong>Concrete repair:</strong> Either complete those two sections with a small per-output checklist (for example: overview-video opener, mechanism close-up, before/after, end-card still; Welcome-post hero/detail; Service-guide notification stack image) or remove the empty headings until a genuine list exists. Add a column/marker for <strong>capture once / use in repo / use in video / use in Substack</strong>.</li>
+</ul>
+<h3 id="b-several-central-photography-instructions-are-explicitly-unfinished-rather-than-safely-provisional">B. Several central photography instructions are explicitly unfinished rather than safely provisional</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>image-workflow.md</code> says "Need to doc working distance," "Need to doc better what size image field will be," and ends its "Geometry" and "Lighting" sections with imperatives to describe/draw the setup, followed only by "NEO."</li>
+<li><strong>Why this is weak:</strong> These are the variables most likely to affect repeatability of close service photography. The document has strong lens exposure notes, but not a reproducible bench layout or lighting recipe.</li>
+<li><strong>Concrete repair:</strong> Convert the open reminders into a minimum viable bench recipe: camera/lens, subject distance, camera height/angle, tray/hero-box location, light names/positions/diffusion, white-balance target, and one reference photograph/diagram. Keep experimental alternatives in the Parking Lot or a separate test log.</li>
+</ul>
+<h3 id="c-the-photo-processing-instruction-uses-global-automatic-changes-without-a-content-quality-checkpoint">C. The photo-processing instruction uses global automatic changes without a content-quality checkpoint</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>image-workflow.md</code> instructs a batch convert with "Resize to 1800px / longest side, Auto contrast, Auto levels," then sends output to the repo. It explains candidate versions and <code>hero-</code> use elsewhere but gives no review criteria or preservation rule.</li>
+<li><strong>Why this is weak:</strong> Automatic contrast/levels can change the appearance of finishes, labels, and corrosion — the very evidence a restoration guide may need to show. The procedure does not say whether originals are preserved, whether processing is applied only to derivatives, or how a reader decides that a processed image still represents the reel faithfully.</li>
+<li><strong>Concrete repair:</strong> Add a short post-conversion check: retain the original capture unchanged; process copies only; inspect white balance, clipping, label legibility, detail shadows, and color/material fidelity; use manual adjustment or a <code>-v#</code> derivative when the automatic version changes meaningful evidence. State which derivative is eligible for the repo.</li>
+</ul>
+<h3 id="d-the-youtube-publication-instruction-is-too-dependent-on-an-unspecified-previous-upload">D. The YouTube publication instruction is too dependent on an unspecified previous upload</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>audio-video-workflow.md</code>, step 8, says to write the title/description "based on last YouTube upload," compare it to a workspace skeleton, and add playlists.</li>
+<li><strong>Why this is weak:</strong> "Last upload" is not necessarily the same content type and can perpetuate an accidental deviation. The file gives no minimum metadata/quality checklist for title form, description links, chapters, thumbnail, visibility, end screens/cards, captions, or the repo/Substack links that make the stack coherent.</li>
+<li><strong>Concrete repair:</strong> Replace "last YouTube upload" with "the latest approved example of the same video type," and add a concise publication checklist with the required fields and the exact output to update afterward (video-links log, repo embeds, Substack connection/notification).</li>
+</ul>
+<h3 id="e-the-parking-lot-mixes-backlog-items-with-long-unqualified-advisory-prose">E. The parking lot mixes backlog items with long, unqualified advisory prose</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>parking-lot.md</code> begins as a backlog, but the section "Substack - leveraging behind-the-scenes content" includes a long block introduced as "Perplexity's commentary," including prescriptions such as "Using 'At the bench / production notes' as the primary home for process is perfect" and quantified "80–90%" / "10–20%" splits.</li>
+<li><strong>Why this is weak:</strong> The file is intended to preserve deferred ideas, but this prose reads like a prospective standard while remaining unratified and sometimes uses noncanonical series names. It makes a future reader work to distinguish an idea, a decision, and an adopted rule.</li>
+<li><strong>Concrete repair:</strong> For each backlog entry, lead with <strong>status</strong> (<em>idea / experiment / adopted / superseded</em>), <strong>next decision</strong>, and <strong>destination if adopted</strong>. Move the full discussion to a dated incubator note or condense it into an action card. When adopted, promote the policy to Substack standards rather than letting the Parking Lot become a shadow style guide.</li>
+</ul>
+<h3 id="f-the-backup-document-is-a-machine-switching-checklist-not-yet-a-complete-backup-workflow">F. The backup document is a machine-switching checklist, not yet a complete backup workflow</h3>
+<ul>
+<li><strong>Evidence:</strong> <code>backup-workflow.md</code> provides an excellent desktop-to-laptop sequence but only for that scenario; it does not say what "finished syncing" means for large video files, whether the sibling workflow-docs repo is included, what is intentionally excluded, or how recovery is verified.</li>
+<li><strong>Why this is weak:</strong> The document's title promises the broader operational policy that other workflows reference. The current material is useful but too narrow to govern capture ingest, completed video archival, or recovery after an accidental deletion.</li>
+<li><strong>Concrete repair:</strong> Keep the laptop checklist intact, but precede it with a universal policy: covered roots, desired local/cloud status, verification method, retention tiers, and a minimal restore test. Then make the video-cleanup checkpoint cite that policy.</li>
+</ul>
+<h3 id="g-the-volume-plan-offers-a-compelling-slate-but-lacks-selection-and-closure-criteria">G. The volume plan offers a compelling slate but lacks selection and closure criteria</h3>
+<ul>
+<li><strong>Evidence:</strong> The opening rule says each volume has four basic reel types plus an oddball/novel reel; later volumes include alternatives ("OR"), "TBD," and partial lists. The Parking Lot proposes actions "after each volume," but the plan never defines the closing condition.</li>
+<li><strong>Why this is weak:</strong> Alternatives and TBDs are appropriate in an early slate, but the document also contains progress reporting. Without selection criteria (availability, condition, documentation, type balance, narrative value, bench complexity) and a closure rule, the reader cannot tell when an option must be resolved or whether a sparse later volume is provisional.</li>
+<li><strong>Concrete repair:</strong> Add a one-paragraph selection rubric and a volume-close checklist. Mark each volume as <strong>provisional</strong> or <strong>locked</strong>; for provisional entries, give the decision needed and its trigger rather than only "TBD."</li>
+</ul>
+<h2 id="5-whats-working-well">5. What's working well</h2>
+<ul>
+<li>
+<p><strong>The corpus has a real operating spine.</strong> <code>index.md</code> separates the overview, service-guide, and looser Substack tracks cleanly, and it starts with acquisition/research rather than treating publication as an isolated writing task. The intent to make the hub the place that reduces decision fatigue is sound.</p>
+</li>
+<li>
+<p><strong>The documentation treats media as evidence, not decoration.</strong> <code>image-workflow.md</code> is strongest where it connects service actions to images: "At least one image per user action/step," hands/tools visible, parts organized, correct schematic names, and the distinction between sequence numbers and alternative versions. Those are the marks of a technical-documentation workflow rather than a generic content plan.</p>
+</li>
+<li>
+<p><strong>The template/skeleton philosophy is mature.</strong> <code>skeletons-templates-workflow.md</code> correctly favors a developed, worked example over an empty form and explicitly frames a skeleton as "codified wisdom" extracted from finished work. That is an excellent basis for preserving voice and technical completeness while allowing the workflow to evolve.</p>
+</li>
+<li>
+<p><strong>The Substack standards make a valuable editorial distinction.</strong> Separating a reader-facing series title from a behind-the-scenes tag is precise and useful; distinguishing Welcome, Production notes, Reel stories, and the completion-notification series gives the narrative work an intentional role alongside the technical work.</p>
+</li>
+<li>
+<p><strong>The documentation preserves experimentation without putting it in the main path.</strong> The Parking Lot's color, Pandoc, dramatism, remaster, and expanded-video ideas show a healthy system for retaining possibilities. Its "refactoring and harvesting" idea is especially good: promote durable insight to a canonical document and park the rest rather than forcing premature systematization.</p>
+</li>
+<li>
+<p><strong>The level of tool and asset specificity is often excellent.</strong> Camera settings, lens starting points, Reaper/Shotcut artifacts, chapter-marker handling, and two-machine synchronization are concrete enough to support repeatable practice. The needed revisions are largely about connecting these strong local procedures into one unambiguous release and preservation system.</p>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../parking-lot/" class="btn btn-neutral float-left" title="Parking lot"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../parking-lot/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
