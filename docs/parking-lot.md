@@ -1,5 +1,9 @@
 # Parking Lot / Project backlog
 
+## Produce a podcast
+
+9.15.26: Inspired by some ideas in The Heritage Farm Companion 15/2. Something like this: podcast title: Reel Connections . . . with Vintage Reel Service Guides. Episode series: interviews with special guests (people who make parts, who sell reels on ebay, in ORCA, sportsmen, rod-makers), reel history stories (about iconic makers like Penn, Pflueger, etc.), reel spotlights (focused on one reel or a series like the Penn Spinfishers or Zebco Cardinals, etc.), and updates from VRSG, also eventually could have "from the archive" episodes. Releases every two weeks. On Spotify, Apple (or not), and YouTube, etc. Maybe direct from Substack.
+
 ## Implement some ideas from Munsell's color model
 
 7.31.26: I'd found a couple of books about this "color grammar" via the Internet Archive, then had a P. convo exploring the ideas - four or five at least for implementing as part of the reel project. There's also a website for converting Munsell's color notation into hex and RGB. Convo is in workspace `/project development-background/artwork-munsell-color-model`

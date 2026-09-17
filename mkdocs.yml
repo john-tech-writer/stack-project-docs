@@ -6,7 +6,7 @@ nav:
   - Standards - Structure - Lists:
       - Naming and slugs: naming-slugs.md
       - Directory layout: directory-layout.md
-      - Skeletons and templates: skeletons-templates-workflow.md
+      - Skeletons and templates: skeletons-templates.md
       - Substack standards and series: substack-standards-series.md
       - Image lists: image-lists.md
       - Screenshot and code block usage: screenshot-code-block-usage.md
@@ -15,8 +15,10 @@ nav:
       - Project workflow: project-workflow.md
       - Image workflow: image-workflow.md
       - Video workflow: audio-video-workflow.md
+      - Substack workflow: substack-workflow.md
       - Backup workflow: backup-workflow.md
       - Vintage rod workflow: vintage-rod-workflow.md
+      - Repair / parts / supplier workflow: repair-parts-supplier-workflow.md
   - Planning - Future - History:
       - Volume planning: volume-planning.md
       - Parking lot: parking-lot.md

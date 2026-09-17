@@ -25,13 +25,3 @@ The four initial series titles, tags, and functions:
   - **Service guide:** Basically a simple notification. When a new overview + guide + video stack is completely published, a notification. Tag = Guides
 
 Refer to skeletons, etc. by series name, tag is **only** used in ss.
-
-## Workflow for Welcome posts
-
-  - Use skeleton in Substack.
-
-  - Post to substack, tag as "new arrival."
-
-  - Wire to repo: Post template includes a Connections section with link to the repo, notes that when the entire stack is published a notification will be posted on substack.
-
-  - Wire to YT: Connections section includes link to YT. Optionally create substack video for posting to YouTube shorts.
