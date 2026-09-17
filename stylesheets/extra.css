@@ -1,0 +1,15 @@
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #555;
+}
+
+figcaption.cap-long {
+  font-size: 0.85em;
+  max-width: 34em;       /* narrower than the full column */
+  margin: 0.5em auto 0;  /* re-centers within that narrower box */
+}
