@@ -1,4 +1,4 @@
-# Parts / repair / supplier workflow
+# Repair / parts / supplier workflow
 
 This page explains the workflow for logging and vetting suppliers and parts, documenting and testing parts and repairs, and promoting supplier / part information to the public site (the repo).
 
@@ -13,7 +13,7 @@ VRSG project dir:
 
 Workspace dir: supplier-reference.md    # ref., private listing
 
-Stack project dir: parts-repair-supplier-workflow.md   # ref., this file
+Stack project dir: repair-parts-supplier-workflow.md   # ref., this file
 
 ## Process
 
