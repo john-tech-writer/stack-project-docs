@@ -2,11 +2,36 @@
 
 This page explains the workflow for logging and vetting suppliers and parts, documenting and testing parts and repairs, and promoting supplier / part information to the public site (the repo).
 
+## Documents
+
+VRSG project dir:
+
+  - vintage-reel-log.md        # ref., not included in nav
+  - reel-parts.md              # ref., list of all parts and vetted suppliers
+  - [slug]-repair-notes.md     # task, all repairs for a specific reel
+  - [slug]-service-guide.md    # task, gets note / link to repair notes
+
+Workspace dir: supplier-reference.md    # ref., private listing
+
+Stack project dir: parts-repair-supplier-workflow.md   # ref., this file
+
+## Process
+
+1. Reel breaks >
+2. Add note to reel log >
+3. Research / locate / order part >
+4. Add notes on part and supplier to reel log >
+5. Do repair / photograph / write rough bench notes >
+6. Author / publish repair notes >
+7. Add note / link to service guide >
+8. Add notes to reel log / supplier ref / reel parts >
+9. Review / update workflow with any process improvements
+
 ## Parts / repair workflow
 
 For each specific part / repair:
 
-1. Add a brief dated repair note the project file `vintage-reel-log.md` for the specific reel - when reel fails, when parts are located / ordered, when parts are received, when reel is repaired.
+1. Add a brief dated repair note in the project file `vintage-reel-log.md` for the specific reel - when reel fails, when parts are located / ordered, when parts are received, when reel is repaired.
 
 2. A brief initial parts supplier ID is added to the workspace `supplier-reference.md`
 
