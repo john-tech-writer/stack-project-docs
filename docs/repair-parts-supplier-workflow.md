@@ -10,7 +10,6 @@ VRSG project/
 
 Filename | Type / content / notes
 --|--
- vintage-reel-log.md | ref., notes on each reel, not included in nav
  reel-parts.md | ref., list of all parts and vetted suppliers
  [slug]-repair-notes.md | task, all repairs for a specific reel
  [slug]-service-guide.md | task, gets note / link to repair notes
@@ -19,7 +18,8 @@ Workspace/
 
 Filename | Type / content / notes
 --|--
- supplier-reference.md | ref., notes on parts and suppliers, private listing
+ vintage-reel-log.md | ref., private notes on each reel
+ supplier-reference.md | ref., private notes on parts and suppliers
 
 Stack project/
 
@@ -66,5 +66,7 @@ For each specific part / repair:
     - Add to nav under that reel.
 
     - Add any future repairs for that reel to the same page.
+
+    - Add a note / link in [slug]-service-guide.md for the reel.
 
 7. Review / update repair-workflow-parts-supplier-workflow.md with any process improvements.
