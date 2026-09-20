@@ -69,4 +69,4 @@ For each specific part / repair:
 
     - Add a note / link in [slug]-service-guide.md for the reel.
 
-7. Review / update repair-workflow-parts-supplier-workflow.md with any process improvements.
+7. Review / update repair-parts-supplier-workflow.md with any process improvements.
