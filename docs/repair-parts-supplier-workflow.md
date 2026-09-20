@@ -2,52 +2,61 @@
 
 This page explains the workflow for logging and vetting suppliers and parts, documenting and testing parts and repairs, and promoting supplier / part information to the public site (the repo).
 
-## Documents
+## Dirs and Docs
 
-VRSG project dir:
+VRSG project/
+vintage-reel-log.md - ref., not included in nav
+reel-parts.md - ref., list of all parts and vetted suppliers
+[slug]-repair-notes.md - task, all repairs for a specific reel
+[slug]-service-guide.md - task, gets note / link to repair notes
 
-  - vintage-reel-log.md - ref., not included in nav
-  - reel-parts.md - ref., list of all parts and vetted suppliers
-  - [slug]-repair-notes.md - task, all repairs for a specific reel
-  - [slug]-service-guide.md - task, gets note / link to repair notes
+Workspace/
+supplier-reference.md - ref., private listing
 
-Workspace dir: supplier-reference.md - ref., private listing
-
-Stack project dir: repair-parts-supplier-workflow.md - ref., this file
+Stack project/
+repair-parts-supplier-workflow.md - ref., this file
 
 ## Process
 
-1. Reel breaks >
-2. Add note to reel log >
-3. Research / locate / order part >
-4. Add notes on part and supplier to reel log >
-5. Do repair / photograph / write rough bench notes >
-6. Author / publish repair notes >
-7. Add note / link to service guide >
-8. Add notes to reel log / supplier ref / reel parts >
-9. Review / update workflow with any process improvements
+1. Reel breaks > Add note to reel-log >
+2. Research / locate / order part > Add notes on part and supplier to reel-log >
+3. Do repair / photograph / write rough bench notes >
+4. Bench test > update supplier-ref > update reel-log
+5. Add entry to reel-parts
+6. Author / publish repair-notes >
+7. Add note / link to service-guide >
+
+8. Add notes to reel-log / supplier-ref / reel-parts > ?
+
+9. Review / update repair-workflow with any process improvements
 
 ## Parts / repair workflow
 
 For each specific part / repair:
 
-1. Add a brief dated repair note in the project file `vintage-reel-log.md` for the specific reel - when reel fails, when parts are located / ordered, when parts are received, when reel is repaired.
+1. When reel fails, add a brief dated repair note in the project file `vintage-reel-log.md` for the specific reel.
 
-2. A brief initial parts supplier ID is added to the workspace `supplier-reference.md`
+2. Locate part and add a brief initial parts supplier ID in the workspace file `supplier-reference.md`
 
-3. Replacement parts are photographed beside the damaged original, including various faces and any molded, machined, or printed markings.
+3. When part is received, do the repair and document:
 
-    Parts are photographed after being installed. Save these images in the media folder for the appropriate reel.
+  - Write a set of rough bench notes.
 
-    Images are saved in the media folder for the appropriate reel. Any or all of these images may be used in the reel's repair notes page.
+  - Photograph replacement parts beside the damaged original, including various faces and any molded, machined, or printed markings. Include a ruler for scale.  Save image files in the media folder for the appropriate reel.
 
-4. After the repair has passed the initial bench test, an entry is added to the workspace `supplier-reference.md` for the parts supplier and the repair note `reel-log.md` is updated.
+  - Photograph repair after parts installed.
 
-5. An entry is added to the project `reel-parts.md` briefly documenting the part and repair.
+  - Any or all of these images may be used in the reel's repair notes page and the reel parts page.
 
-6. A `[slug]-repair-notes.md` page is created in the project for the specific reel and added to the nav for that reel. Any future repairs for that reel will be added to the same page. For example: `penn-720-repair-notes.md`
+4. After the repair has passed the initial bench test, move the parts supplier to the vetted section in the workspace file `supplier-reference.md` and add dated repair note to `vintage-reel-log.md`.
 
-7. A brief note and link to the repair notes page is added to the reel's service guide, e.g., `penn-720-service-guide.md`
+5. Add an entry to the project file `reel-parts.md` briefly documenting the part and repair.
+
+6. Author a `[slug]-repair-notes.md` page in the project for the specific reel and add to nav for that reel, for example: `penn-720-repair-notes.md`
+
+    Add any future repairs for that reel to the same page.
+
+7. Add a brief note and link to the repair notes page to the reel's service guide, e.g., `penn-720-service-guide.md`
 
 ## Supplier ID / vetting / listing workflow
 
