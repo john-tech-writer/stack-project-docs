@@ -5,10 +5,11 @@ This page explains the workflow for logging and vetting suppliers and parts, doc
 ## Dirs and Docs
 
 VRSG project/
-vintage-reel-log.md - ref., not included in nav
-reel-parts.md - ref., list of all parts and vetted suppliers
-[slug]-repair-notes.md - task, all repairs for a specific reel
-[slug]-service-guide.md - task, gets note / link to repair notes
+
+  - vintage-reel-log.md          ref., not included in nav
+  - reel-parts.md                ref., list of all parts and vetted suppliers
+  - [slug]-repair-notes.md       task, all repairs for a specific reel
+  - [slug]-service-guide.md      task, gets note / link to repair notes
 
 Workspace/
 supplier-reference.md - ref., private listing
