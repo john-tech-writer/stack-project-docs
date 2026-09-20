@@ -27,59 +27,44 @@ Filename | Type / content / notes
 --|--
  repair-parts-supplier-workflow.md | ref., this file
 
-
-## Process
-
-1. Add note to reel-log >
-2. Research / locate / order part > Add notes on part and supplier to reel-log >
-3. Do repair / photograph / write rough bench notes >
-4. Bench test > update supplier-ref > update reel-log
-5. Add entry to reel-parts
-6. Author / publish repair-notes >
-7. Add note / link to service-guide >
-
-8. Add notes to reel-log / supplier-ref / reel-parts > ?
-
-9. Review / update repair-workflow with any process improvements
-
-## Parts / repair workflow
+## Workflow
 
 For each specific part / repair:
 
-1. Add a dated repair note to vintage-reel-log.md for the specific reel - briefly describe the issue.
+1. Add a dated repair note to vintage-reel-log.md for the specific reel
 
-2. Research / locate / order part, add a dated order note to vintage-reel-log.md, and add a parts supplier note to supplier-reference.md.
+    Briefly describe the issue.
+
+2. Research / locate / order part, then doc:
+
+    - Add a dated order note to vintage-reel-log.md.
+    
+    - Add a parts supplier note to supplier-reference.md.
 
 3. When part is received, do the repair and document:
 
-  - Write a set of rough bench notes.
+    - Write a set of rough bench notes.
 
-  - Photograph replacement parts beside the damaged original, including various faces and any markings. Include a ruler for scale.  Save image files in the media folder for the appropriate reel.
+    - Photograph replacement parts beside the damaged original, including various faces and any markings. Include a ruler for scale.  Save image files in the media folder for the appropriate reel.
 
-  - Photograph repair after parts installed.
+    - Photograph repair after parts installed.
 
-  - Any or all of these images may be used in the reel's repair notes page and the reel parts page.
+    - Any or all of these images may be used in the reel's repair notes page and the reel parts page.
 
-4. Bench test, if it works move the parts supplier to the vetted section in supplier-reference.md and add dated repair note to vintage-reel-log.md.
+4. Bench test - if it works, then:
 
-5. Add an entry to reel-parts.md briefly documenting the part and repair.
+    - Move the parts supplier to the vetted section in supplier-reference.md.
+    
+    - Add dated repair note to vintage-reel-log.md.
 
-6. Author a `[slug]-repair-notes.md` page in the project for the specific reel and add to nav for that reel, for example: `penn-720-repair-notes.md`
+5. Add an entry to reel-parts.md.
 
-    Add any future repairs for that reel to the same page.
+    Briefly doc the part and repair.
 
-7. Add a brief note and link to the repair notes page to the reel's service guide, e.g., `penn-720-service-guide.md`
+6. Author a [slug]-repair-notes.md for the reel, for example, penn-720-repair-notes.md.
 
-## Supplier ID / vetting / listing workflow
+    - Add to nav under that reel.
 
-For any new parts supplier, notes will be added to the workspace `supplier-reference.md` to track them until parts are obtained, used in a repair, tested, and passed.
+    - Add any future repairs for that reel to the same page.
 
-Steps to add a parts supplier to the project `reel-parts.md` page:
-
-1. Confirm that the supplier / part meet the project’s sourcing standards and at least an initial bench-test.
-
-2. Contact the supplier and ask for permission to list them as a resource on the repo.
-
-3. Confirm the preferred public link, such as a website, eBay store, or seller profile.
-
-4. Recheck the link and listing status periodically, especially before a major guide revision.
+7. Review / update repair-workflow-parts-supplier-workflow.md with any process improvements.
