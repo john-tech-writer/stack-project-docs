@@ -31,7 +31,7 @@ Filename | Type / content / notes
 
 For each specific part / repair:
 
-1. Add a dated repair note to vintage-reel-log.md for the specific reel
+1. Add a dated repair note to vintage-reel-log.md for the specific reel.
 
     Briefly describe the issue.
 
