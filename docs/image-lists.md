@@ -1,10 +1,15 @@
 # Image lists
 
-These lists are intended as flexible guidelines for typical projects. Catalog art is generally in the workspace/maker and reel docs/maker/, e.g., pflueger-1935-pocket-cat.pdf includes many images of fish, rods, and lures.
+These lists are intended as flexible guidelines for typical projects - each reel and rod will suggest different worthwhile aspects to focus on. All lists refer to reels unless otherwise noted.
 
-## Repo - for reels
+For good examples, look at the most recent doc for each 
+
+Original catalog art is generally in the workspace/maker and reel docs/maker/, e.g., pflueger-1935-pocket-cat.pdf includes many images of fish, rods, and lures.
+
+## Repo
 
 **Overviews**
+
   - Hero
   - Vintage catalog art hero
   - Logo / badge
@@ -17,6 +22,7 @@ These lists are intended as flexible guidelines for typical projects. Catalog ar
   - Feature
 
 **Service guides**
+
   - Test, e.g., checking the gears
   - Disassembly - step by step, some steps may have 2 - 3 images, as an example the Pflueger Nobby disassembly uses 26 images
   - Fully disassembled
@@ -31,6 +37,7 @@ These lists are intended as flexible guidelines for typical projects. Catalog ar
 Mostly will use stills from the repo images. This is a typical list of likely candidates based on the Nobby.
 
 **Overviews**
+
   - Hero
   - Vintage art of target species, an example
   - Logo / badge
@@ -41,12 +48,14 @@ Mostly will use stills from the repo images. This is a typical list of likely ca
 **Service guides**
 
 *I - Disassembly*
+
   - Hero
   - Vintage catalog art, schematic / parts list
   - Close shots of very small parts, e.g., pawl in-place and removed
   - Vintage catalog art, lubricants (lead-in for service vid)
 
 *II - Reassembly*
+
   - Reel fully disassembled
   - Vintage catalog art, schematic / parts list
   - Vintage catalog art, lubricants
@@ -55,14 +64,14 @@ Mostly will use stills from the repo images. This is a typical list of likely ca
   - Macro shot of small part, e.g., spool pinion
   - Vintage art of target species - different than in overview
 
-*Extra features*
-*no standards yet - likely will include hero shot, close shots of features, e.g., grease cap*
+*Extra features - no standards yet - likely will include hero shot, close shots of features, e.g., grease cap*
 
 ## Substack posts
 
 Each series will be different.
 
 **Welcome**
+
   - Hero
   - Feature, e.g., cork arbor
   - Annotated image of reel controls
@@ -72,15 +81,18 @@ Each series will be different.
   - 4X Gallery - hero, feature close shot, e.g., handles, badge / logo, catalog art hero
   
 **Service guide**
+
   - Inside shot, e.g., gears
   - Reel fully disassembled
 
 **Reel stories**
+
   - Hero
   - Field shot, e.g., jetty, pier, ocean
   - Vintage fish art
 
-**Production notes
+**Production notes**
+
   - Beginning state of topic, e.g., destroyed workshop
   - New improved state
   - Shots of notebook, graph paper, etc. pertaining to change
