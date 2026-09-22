@@ -4,19 +4,24 @@
 
 This folder contains the reel and rod logs for the Vintage Reel Service Guides project.
 
-These logs include relevant information about the purchase, description, and condition of each item. More details on evaluation, service / parts / repairs, documentation, field use, and misc. notes are also included. The logs constitute a brief history of each reel as it moves through the workshop and project.
+These logs include relevant information about the purchase, description, and condition of each item. Details on evaluation, service / parts / repairs, documentation, field use, and misc. notes are also included. The logs constitute a brief history of each reel as it moves through the workshop and project.
 
-## What lives here - key files
+## Dirs and docs
 
-vintage reel log.docx
+Stack project/
 
-vintage-reel-log.md - this is a newer .md version of the reel log, transitioning away from .docx
+Filename | Type / content / notes
+--|--
+ README-reel-rod-logs.md | ref., this file
+ vintage reel log.docx | older reel log, all this info will be moved to the .md file
+ vintage-reel-log.md | newer .md version of the reel log, transitioning away from .docx
+ vintage-rod-log.md | -
 
-vintage-rod-log.md
+Related:
 
-Related: more details about each rod are in the project folder in `rods/`
+  - More details about each rod are in VRSG project/rods/
 
-more details about each reel are in the project folder in `[maker]/`
+  - More details about each reel are in VRSG project/[maker]/
 
 ## Working approach
 
