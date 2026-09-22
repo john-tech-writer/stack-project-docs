@@ -16,7 +16,7 @@ Workspace/
 
 Filename | Type / content / notes
 --|--
- vintage-rod-log.md | ref., private notes on each rod
+
 
 Stack project/
 
@@ -24,6 +24,7 @@ Filename | Type / content / notes
 --|--
  vintage-rod-workflow.md | ref., this file
  image-lists.md | includes image list for vintage rods
+ vintage-rod-log.md | ref., private notes on each rod, not in nav
 
 ## Workflow
 

@@ -2,7 +2,7 @@
 
 These lists are intended as flexible guidelines for typical projects - each reel and rod will suggest different worthwhile aspects to focus on. All lists refer to reels unless otherwise noted.
 
-For good examples, look at the most recent doc for each 
+For good examples, look at the most recent doc for each type, e.g., the most recent repo overview.
 
 Original catalog art is generally in the workspace/maker and reel docs/maker/, e.g., pflueger-1935-pocket-cat.pdf includes many images of fish, rods, and lures.
 
