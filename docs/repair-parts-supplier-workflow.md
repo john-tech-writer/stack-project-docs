@@ -45,7 +45,7 @@ For each specific part / repair:
 
     - Write a set of rough bench notes.
 
-    - Photograph replacement parts beside the damaged original, including various faces and any markings. Include a ruler for scale.  Save image files in the media folder for the appropriate reel.
+    - Photograph replacement parts beside the damaged original, including various faces and any markings. Include a ruler for scale. Save image files in the media folder for the appropriate reel.
 
     - Photograph repair after parts installed.
 

@@ -36,3 +36,21 @@ Service guides
 
 ## Substack posts
 
+## Vintage rods
+
+Full-length assembled rod: both sides, along with each separated section.
+
+All decal text, including “Buccaneer,” model marking, lure range, line recommendation, material marking, and country-of-origin wording.
+
+Every guide in side view and top view, concentrating on feet, plating, inserts, wraps, and any corrosion.
+
+Ferrule: male and female ends, witness marks, fit, wear, dirt, cracks, and any internal reinforcement.
+
+Reel seat: top, underside, threads, hood, locking nut, and any maker stamp.
+
+Cork grip and butt: foregrip, rear grip, filler condition, cork checks, end cap, and rubber butt if present.
+
+Wrap color sequence and trim details, ideally using a color-reference card in at least one frame.
+
+A scale/ruler photograph for guide spacing, handle length, ferrule dimensions, and section length.
+
