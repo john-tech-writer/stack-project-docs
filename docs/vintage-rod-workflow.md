@@ -23,6 +23,7 @@ Stack project/
 Filename | Type / content / notes
 --|--
  vintage-rod-workflow.md | ref., this file
+ image-lists.md | includes image list for vintage rods
 
 ## Workflow
 
