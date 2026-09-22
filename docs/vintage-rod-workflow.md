@@ -2,7 +2,7 @@
 
 This page explains the workflow for evaluating vintage rods, documenting and testing them, and promoting the documentation to the public site (the repo).
 
-This workflow keeps the rod collection complementary to the reel archive and the focus of the Vintage Reel project vintage-reel-centric by acquiring vintage rods selectively.
+This workflow keeps the rod collection complementary to the reel archive and keeps the focus of the Vintage Reel project vintage-reel-centric by acquiring vintage rods selectively.
 
 ## Dirs and Docs
 
@@ -10,7 +10,7 @@ VRSG project/
 
 Filename | Type / content / notes
 --|--
- [slug].md, e.g., st-croix-baitcasting.md | overview, describes rod
+ [slug].md, e.g., st-croix-pacemaker-baitcasting.md | overview, describes rod
 
 Workspace/
 
