@@ -22,9 +22,11 @@ Stack project/
 
 Filename | Type / content / notes
 --|--
+ README-reel-rod-logs.md | ref., describes contents of reel-rod-logs folder
  vintage-rod-workflow.md | ref., this file
  image-lists.md | includes image list for vintage rods
  vintage-rod-log.md | ref., private notes on each rod, not in nav
+ rod-collecting-standards.md | ref., selection criteria for acquiring vintage rods
 
 ## Workflow
 
@@ -33,6 +35,20 @@ Filename | Type / content / notes
     See [vintage rod collecting standards](rod-collecting-standards.md).
 
 2. Acquire rod, then add a dated purchase note to vintage-rod-log.md.
+
+3. After rod is ordered, research, then doc:
+
+    - Author a [slug].md for the rod, for example, st-croix-pacemaker-baitcasting.md.
+
+    - Add to nav.
+
+    - Add a note / link in [slug]-overview.md for reels that logically pair with the rod.
+
+-------------------
+
+    Add a dated order note to vintage-reel-log.md.
+
+    - Add a parts supplier note to supplier-reference.md.
 
 3. When rod is received, inspect and doc:
 
